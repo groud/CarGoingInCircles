@@ -1,0 +1,89 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://menu/MainMenu.gd" type="Script" id=1]
+[ext_resource path="res://menu/background.png" type="Texture" id=2]
+[ext_resource path="res://menu/MainMenuDynamicFont.tres" type="DynamicFont" id=3]
+[ext_resource path="res://menu/Button.tscn" type="PackedScene" id=4]
+[ext_resource path="res://menu/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg" type="AudioStream" id=5]
+
+[node name="Control" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="background" type="Sprite" parent="." index="0"]
+
+position = Vector2( 679.28, 414.682 )
+scale = Vector2( 0.757925, 0.757925 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 33.0
+margin_top = 40.0
+margin_right = 1029.0
+margin_bottom = 295.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.0642014, 0.0415039, 0.332031, 1 )
+text = "A game about a single car 
+going in circles until the player 
+finaly gets bored."
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 98.0
+margin_top = 354.0
+margin_right = 407.0
+margin_bottom = 544.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_constants/separation = 20
+alignment = 0
+_sections_unfolded = [ "custom_constants" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="PlayButton" parent="VBoxContainer" index="0" instance=ExtResource( 4 )]
+
+[node name="QuitButton" parent="VBoxContainer" index="1" instance=ExtResource( 4 )]
+
+margin_top = 95.0
+margin_bottom = 170.0
+text = "No thanks"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="3"]
+
+stream = ExtResource( 5 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+[connection signal="pressed" from="VBoxContainer/PlayButton" to="." method="_on_PlayButton_pressed"]
+
+[connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_on_QuitButton_pressed"]
+
+

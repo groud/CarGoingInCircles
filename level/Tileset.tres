@@ -1,0 +1,2846 @@
+[gd_resource type="TileSet" load_steps=285 format=2]
+
+[ext_resource path="res://Isometric/barrierRed_NE.png" type="Texture" id=1]
+[ext_resource path="res://Isometric/barrierRed_NW.png" type="Texture" id=2]
+[ext_resource path="res://Isometric/barrierWhite_SE.png" type="Texture" id=3]
+[ext_resource path="res://Isometric/pitsOfficeCorner_NE.png" type="Texture" id=4]
+[ext_resource path="res://Isometric/pitsOfficeCorner_NW.png" type="Texture" id=5]
+[ext_resource path="res://Isometric/pitsOfficeCorner_SE.png" type="Texture" id=6]
+[ext_resource path="res://Isometric/pitsOfficeCorner_SW.png" type="Texture" id=7]
+[ext_resource path="res://Isometric/pitsOffice_NE.png" type="Texture" id=8]
+[ext_resource path="res://Isometric/pitsOffice_NW.png" type="Texture" id=9]
+[ext_resource path="res://Isometric/pitsOffice_SE.png" type="Texture" id=10]
+[ext_resource path="res://Isometric/pitsOffice_SW.png" type="Texture" id=11]
+[ext_resource path="res://Isometric/pylon_NE.png" type="Texture" id=12]
+[ext_resource path="res://Isometric/pylon_NW.png" type="Texture" id=13]
+[ext_resource path="res://Isometric/barrierWhite_SW.png" type="Texture" id=14]
+[ext_resource path="res://Isometric/pylon_SE.png" type="Texture" id=15]
+[ext_resource path="res://Isometric/pylon_SW.png" type="Texture" id=16]
+[ext_resource path="res://Isometric/radarEquipment_NE.png" type="Texture" id=17]
+[ext_resource path="res://Isometric/radarEquipment_NW.png" type="Texture" id=18]
+[ext_resource path="res://Isometric/radarEquipment_SE.png" type="Texture" id=19]
+[ext_resource path="res://Isometric/radarEquipment_SW.png" type="Texture" id=20]
+[ext_resource path="res://Isometric/rail_NE.png" type="Texture" id=21]
+[ext_resource path="res://Isometric/rail_NW.png" type="Texture" id=22]
+[ext_resource path="res://Isometric/rail_SE.png" type="Texture" id=23]
+[ext_resource path="res://Isometric/rail_SW.png" type="Texture" id=24]
+[ext_resource path="res://Isometric/billboardLower_NE.png" type="Texture" id=25]
+[ext_resource path="res://Isometric/ramp_NE.png" type="Texture" id=26]
+[ext_resource path="res://Isometric/ramp_NW.png" type="Texture" id=27]
+[ext_resource path="res://Isometric/ramp_SE.png" type="Texture" id=28]
+[ext_resource path="res://Isometric/ramp_SW.png" type="Texture" id=29]
+[ext_resource path="res://Isometric/roadBump_NE.png" type="Texture" id=30]
+[ext_resource path="res://Isometric/roadBump_NW.png" type="Texture" id=31]
+[ext_resource path="res://Isometric/roadBump_SE.png" type="Texture" id=32]
+[ext_resource path="res://Isometric/roadBump_SW.png" type="Texture" id=33]
+[ext_resource path="res://Isometric/roadCornerLargeBorderInner_NE.png" type="Texture" id=34]
+[ext_resource path="res://Isometric/roadCornerLargeBorderInner_NW.png" type="Texture" id=35]
+[ext_resource path="res://Isometric/billboardLower_NW.png" type="Texture" id=36]
+[ext_resource path="res://Isometric/roadCornerLargeBorderInner_SE.png" type="Texture" id=37]
+[ext_resource path="res://Isometric/roadCornerLargeBorderInner_SW.png" type="Texture" id=38]
+[ext_resource path="res://Isometric/roadCornerLargeBorder_NE.png" type="Texture" id=39]
+[ext_resource path="res://Isometric/roadCornerLargeBorder_NW.png" type="Texture" id=40]
+[ext_resource path="res://Isometric/roadCornerLargeBorder_SE.png" type="Texture" id=41]
+[ext_resource path="res://Isometric/roadCornerLargeBorder_SW.png" type="Texture" id=42]
+[ext_resource path="res://Isometric/roadCornerLargerBorderInner_NE.png" type="Texture" id=43]
+[ext_resource path="res://Isometric/roadCornerLargerBorderInner_NW.png" type="Texture" id=44]
+[ext_resource path="res://Isometric/roadCornerLargerBorderInner_SE.png" type="Texture" id=45]
+[ext_resource path="res://Isometric/roadCornerLargerBorderInner_SW.png" type="Texture" id=46]
+[ext_resource path="res://Isometric/billboardLower_SE.png" type="Texture" id=47]
+[ext_resource path="res://Isometric/roadCornerLargerBorder_NE.png" type="Texture" id=48]
+[ext_resource path="res://Isometric/roadCornerLargerBorder_NW.png" type="Texture" id=49]
+[ext_resource path="res://Isometric/roadCornerLargerBorder_SE.png" type="Texture" id=50]
+[ext_resource path="res://Isometric/roadCornerLargerBorder_SW.png" type="Texture" id=51]
+[ext_resource path="res://Isometric/roadCornerLarger_NE.png" type="Texture" id=52]
+[ext_resource path="res://Isometric/roadCornerLarger_NW.png" type="Texture" id=53]
+[ext_resource path="res://Isometric/roadCornerLarger_SE.png" type="Texture" id=54]
+[ext_resource path="res://Isometric/roadCornerLarger_SW.png" type="Texture" id=55]
+[ext_resource path="res://Isometric/roadCornerLarge_NE.png" type="Texture" id=56]
+[ext_resource path="res://Isometric/roadCornerLarge_NW.png" type="Texture" id=57]
+[ext_resource path="res://Isometric/billboardLower_SW.png" type="Texture" id=58]
+[ext_resource path="res://Isometric/roadCornerLarge_SE.png" type="Texture" id=59]
+[ext_resource path="res://Isometric/roadCornerLarge_SW.png" type="Texture" id=60]
+[ext_resource path="res://Isometric/roadCornerSmallBorder_NE.png" type="Texture" id=61]
+[ext_resource path="res://Isometric/roadCornerSmallBorder_NW.png" type="Texture" id=62]
+[ext_resource path="res://Isometric/roadCornerSmallBorder_SE.png" type="Texture" id=63]
+[ext_resource path="res://Isometric/roadCornerSmallBorder_SW.png" type="Texture" id=64]
+[ext_resource path="res://Isometric/roadCornerSmallSquare_NE.png" type="Texture" id=65]
+[ext_resource path="res://Isometric/roadCornerSmallSquare_NW.png" type="Texture" id=66]
+[ext_resource path="res://Isometric/roadCornerSmallSquare_SE.png" type="Texture" id=67]
+[ext_resource path="res://Isometric/roadCornerSmallSquare_SW.png" type="Texture" id=68]
+[ext_resource path="res://Isometric/billboardLow_NE.png" type="Texture" id=69]
+[ext_resource path="res://Isometric/roadCornerSmall_NE.png" type="Texture" id=70]
+[ext_resource path="res://Isometric/roadCornerSmall_NW.png" type="Texture" id=71]
+[ext_resource path="res://Isometric/roadCornerSmall_SE.png" type="Texture" id=72]
+[ext_resource path="res://Isometric/roadCornerSmall_SW.png" type="Texture" id=73]
+[ext_resource path="res://Isometric/roadCurved_NE.png" type="Texture" id=74]
+[ext_resource path="res://Isometric/roadCurved_NW.png" type="Texture" id=75]
+[ext_resource path="res://Isometric/roadCurved_SE.png" type="Texture" id=76]
+[ext_resource path="res://Isometric/roadCurved_SW.png" type="Texture" id=77]
+[ext_resource path="res://Isometric/roadEnd_NE.png" type="Texture" id=78]
+[ext_resource path="res://Isometric/roadEnd_NW.png" type="Texture" id=79]
+[ext_resource path="res://Isometric/billboardLow_NW.png" type="Texture" id=80]
+[ext_resource path="res://Isometric/roadEnd_SE.png" type="Texture" id=81]
+[ext_resource path="res://Isometric/roadEnd_SW.png" type="Texture" id=82]
+[ext_resource path="res://Isometric/roadHalfCircleBorder_NE.png" type="Texture" id=83]
+[ext_resource path="res://Isometric/roadHalfCircleBorder_NW.png" type="Texture" id=84]
+[ext_resource path="res://Isometric/roadHalfCircleBorder_SE.png" type="Texture" id=85]
+[ext_resource path="res://Isometric/roadHalfCircleBorder_SW.png" type="Texture" id=86]
+[ext_resource path="res://Isometric/roadHalfCircle_NE.png" type="Texture" id=87]
+[ext_resource path="res://Isometric/roadHalfCircle_NW.png" type="Texture" id=88]
+[ext_resource path="res://Isometric/roadHalfCircle_SE.png" type="Texture" id=89]
+[ext_resource path="res://Isometric/roadHalfCircle_SW.png" type="Texture" id=90]
+[ext_resource path="res://Isometric/billboardLow_SE.png" type="Texture" id=91]
+[ext_resource path="res://Isometric/roadPitEntry_NE.png" type="Texture" id=92]
+[ext_resource path="res://Isometric/roadPitEntry_NW.png" type="Texture" id=93]
+[ext_resource path="res://Isometric/roadPitEntry_SE.png" type="Texture" id=94]
+[ext_resource path="res://Isometric/roadPitEntry_SW.png" type="Texture" id=95]
+[ext_resource path="res://Isometric/roadPitGarage_NE.png" type="Texture" id=96]
+[ext_resource path="res://Isometric/roadPitGarage_NW.png" type="Texture" id=97]
+[ext_resource path="res://Isometric/roadPitGarage_SE.png" type="Texture" id=98]
+[ext_resource path="res://Isometric/roadPitGarage_SW.png" type="Texture" id=99]
+[ext_resource path="res://Isometric/roadPitStraightLong_NE.png" type="Texture" id=100]
+[ext_resource path="res://Isometric/roadPitStraightLong_NW.png" type="Texture" id=101]
+[ext_resource path="res://Isometric/billboardLow_SW.png" type="Texture" id=102]
+[ext_resource path="res://Isometric/roadPitStraightLong_SE.png" type="Texture" id=103]
+[ext_resource path="res://Isometric/roadPitStraightLong_SW.png" type="Texture" id=104]
+[ext_resource path="res://Isometric/roadPitStraight_NE.png" type="Texture" id=105]
+[ext_resource path="res://Isometric/roadPitStraight_NW.png" type="Texture" id=106]
+[ext_resource path="res://Isometric/roadPitStraight_SE.png" type="Texture" id=107]
+[ext_resource path="res://Isometric/roadPitStraight_SW.png" type="Texture" id=108]
+[ext_resource path="res://Isometric/roadRampLongCurvedWall_NE.png" type="Texture" id=109]
+[ext_resource path="res://Isometric/roadRampLongCurvedWall_NW.png" type="Texture" id=110]
+[ext_resource path="res://Isometric/roadRampLongCurvedWall_SE.png" type="Texture" id=111]
+[ext_resource path="res://Isometric/roadRampLongCurvedWall_SW.png" type="Texture" id=112]
+[ext_resource path="res://Isometric/barrierRed_SE.png" type="Texture" id=113]
+[ext_resource path="res://Isometric/billboard_NE.png" type="Texture" id=114]
+[ext_resource path="res://Isometric/roadRampLongCurved_NE.png" type="Texture" id=115]
+[ext_resource path="res://Isometric/roadRampLongCurved_NW.png" type="Texture" id=116]
+[ext_resource path="res://Isometric/roadRampLongCurved_SE.png" type="Texture" id=117]
+[ext_resource path="res://Isometric/roadRampLongCurved_SW.png" type="Texture" id=118]
+[ext_resource path="res://Isometric/roadRampLongWall_NE.png" type="Texture" id=119]
+[ext_resource path="res://Isometric/roadRampLongWall_NW.png" type="Texture" id=120]
+[ext_resource path="res://Isometric/roadRampLongWall_SE.png" type="Texture" id=121]
+[ext_resource path="res://Isometric/roadRampLongWall_SW.png" type="Texture" id=122]
+[ext_resource path="res://Isometric/roadRampLong_NE.png" type="Texture" id=123]
+[ext_resource path="res://Isometric/roadRampLong_NW.png" type="Texture" id=124]
+[ext_resource path="res://Isometric/billboard_NW.png" type="Texture" id=125]
+[ext_resource path="res://Isometric/roadRampLong_SE.png" type="Texture" id=126]
+[ext_resource path="res://Isometric/roadRampLong_SW.png" type="Texture" id=127]
+[ext_resource path="res://Isometric/roadRampWall_NE.png" type="Texture" id=128]
+[ext_resource path="res://Isometric/roadRampWall_NW.png" type="Texture" id=129]
+[ext_resource path="res://Isometric/roadRampWall_SE.png" type="Texture" id=130]
+[ext_resource path="res://Isometric/roadRampWall_SW.png" type="Texture" id=131]
+[ext_resource path="res://Isometric/roadRamp_NE.png" type="Texture" id=132]
+[ext_resource path="res://Isometric/roadRamp_NW.png" type="Texture" id=133]
+[ext_resource path="res://Isometric/roadRamp_SE.png" type="Texture" id=134]
+[ext_resource path="res://Isometric/roadRamp_SW.png" type="Texture" id=135]
+[ext_resource path="res://Isometric/billboard_SE.png" type="Texture" id=136]
+[ext_resource path="res://Isometric/roadSplit_NE.png" type="Texture" id=137]
+[ext_resource path="res://Isometric/roadSplit_NW.png" type="Texture" id=138]
+[ext_resource path="res://Isometric/roadSplit_SE.png" type="Texture" id=139]
+[ext_resource path="res://Isometric/roadSplit_SW.png" type="Texture" id=140]
+[ext_resource path="res://Isometric/roadStartPositions_NE.png" type="Texture" id=141]
+[ext_resource path="res://Isometric/roadStartPositions_NW.png" type="Texture" id=142]
+[ext_resource path="res://Isometric/roadStartPositions_SE.png" type="Texture" id=143]
+[ext_resource path="res://Isometric/roadStartPositions_SW.png" type="Texture" id=144]
+[ext_resource path="res://Isometric/roadStart_NE.png" type="Texture" id=145]
+[ext_resource path="res://Isometric/roadStart_NW.png" type="Texture" id=146]
+[ext_resource path="res://Isometric/billboard_SW.png" type="Texture" id=147]
+[ext_resource path="res://Isometric/roadStart_SE.png" type="Texture" id=148]
+[ext_resource path="res://Isometric/roadStart_SW.png" type="Texture" id=149]
+[ext_resource path="res://Isometric/roadStraightArrow_NE.png" type="Texture" id=150]
+[ext_resource path="res://Isometric/roadStraightArrow_NW.png" type="Texture" id=151]
+[ext_resource path="res://Isometric/roadStraightArrow_SE.png" type="Texture" id=152]
+[ext_resource path="res://Isometric/roadStraightArrow_SW.png" type="Texture" id=153]
+[ext_resource path="res://Isometric/roadStraightBridgeMid_NE.png" type="Texture" id=154]
+[ext_resource path="res://Isometric/roadStraightBridgeMid_NW.png" type="Texture" id=155]
+[ext_resource path="res://Isometric/roadStraightBridgeMid_SE.png" type="Texture" id=156]
+[ext_resource path="res://Isometric/roadStraightBridgeMid_SW.png" type="Texture" id=157]
+[ext_resource path="res://Isometric/fenceCurved_NE.png" type="Texture" id=158]
+[ext_resource path="res://Isometric/roadStraightBridgeStart_NE.png" type="Texture" id=159]
+[ext_resource path="res://Isometric/roadStraightBridgeStart_NW.png" type="Texture" id=160]
+[ext_resource path="res://Isometric/roadStraightBridgeStart_SE.png" type="Texture" id=161]
+[ext_resource path="res://Isometric/roadStraightBridgeStart_SW.png" type="Texture" id=162]
+[ext_resource path="res://Isometric/roadStraightBridge_NE.png" type="Texture" id=163]
+[ext_resource path="res://Isometric/roadStraightBridge_NW.png" type="Texture" id=164]
+[ext_resource path="res://Isometric/roadStraightBridge_SE.png" type="Texture" id=165]
+[ext_resource path="res://Isometric/roadStraightBridge_SW.png" type="Texture" id=166]
+[ext_resource path="res://Isometric/roadStraightLong_NE.png" type="Texture" id=167]
+[ext_resource path="res://Isometric/roadStraightLong_NW.png" type="Texture" id=168]
+[ext_resource path="res://Isometric/fenceCurved_NW.png" type="Texture" id=169]
+[ext_resource path="res://Isometric/roadStraightLong_SE.png" type="Texture" id=170]
+[ext_resource path="res://Isometric/roadStraightLong_SW.png" type="Texture" id=171]
+[ext_resource path="res://Isometric/roadStraightSkew_NE.png" type="Texture" id=172]
+[ext_resource path="res://Isometric/roadStraightSkew_NW.png" type="Texture" id=173]
+[ext_resource path="res://Isometric/roadStraightSkew_SE.png" type="Texture" id=174]
+[ext_resource path="res://Isometric/roadStraightSkew_SW.png" type="Texture" id=175]
+[ext_resource path="res://Isometric/roadStraight_NE.png" type="Texture" id=176]
+[ext_resource path="res://Isometric/roadStraight_NW.png" type="Texture" id=177]
+[ext_resource path="res://Isometric/roadStraight_SE.png" type="Texture" id=178]
+[ext_resource path="res://Isometric/roadStraight_SW.png" type="Texture" id=179]
+[ext_resource path="res://Isometric/fenceCurved_SE.png" type="Texture" id=180]
+[ext_resource path="res://Isometric/tentClosedLong_NE.png" type="Texture" id=181]
+[ext_resource path="res://Isometric/tentClosedLong_NW.png" type="Texture" id=182]
+[ext_resource path="res://Isometric/tentClosedLong_SE.png" type="Texture" id=183]
+[ext_resource path="res://Isometric/tentClosedLong_SW.png" type="Texture" id=184]
+[ext_resource path="res://Isometric/tentClosed_NE.png" type="Texture" id=185]
+[ext_resource path="res://Isometric/tentClosed_NW.png" type="Texture" id=186]
+[ext_resource path="res://Isometric/tentClosed_SE.png" type="Texture" id=187]
+[ext_resource path="res://Isometric/tentClosed_SW.png" type="Texture" id=188]
+[ext_resource path="res://Isometric/tentLong_NE.png" type="Texture" id=189]
+[ext_resource path="res://Isometric/tentLong_NW.png" type="Texture" id=190]
+[ext_resource path="res://Isometric/fenceCurved_SW.png" type="Texture" id=191]
+[ext_resource path="res://Isometric/tentLong_SE.png" type="Texture" id=192]
+[ext_resource path="res://Isometric/tentLong_SW.png" type="Texture" id=193]
+[ext_resource path="res://Isometric/tent_NE.png" type="Texture" id=194]
+[ext_resource path="res://Isometric/tent_NW.png" type="Texture" id=195]
+[ext_resource path="res://Isometric/tent_SE.png" type="Texture" id=196]
+[ext_resource path="res://Isometric/tent_SW.png" type="Texture" id=197]
+[ext_resource path="res://Isometric/treeLarge_NE.png" type="Texture" id=198]
+[ext_resource path="res://Isometric/treeLarge_NW.png" type="Texture" id=199]
+[ext_resource path="res://Isometric/treeLarge_SE.png" type="Texture" id=200]
+[ext_resource path="res://Isometric/treeLarge_SW.png" type="Texture" id=201]
+[ext_resource path="res://Isometric/fenceStraight_NE.png" type="Texture" id=202]
+[ext_resource path="res://Isometric/treeSmall_NE.png" type="Texture" id=203]
+[ext_resource path="res://Isometric/treeSmall_NW.png" type="Texture" id=204]
+[ext_resource path="res://Isometric/treeSmall_SE.png" type="Texture" id=205]
+[ext_resource path="res://Isometric/treeSmall_SW.png" type="Texture" id=206]
+[ext_resource path="res://Isometric/fenceStraight_NW.png" type="Texture" id=207]
+[ext_resource path="res://Isometric/barrierRed_SW.png" type="Texture" id=208]
+[ext_resource path="res://Isometric/fenceStraight_SE.png" type="Texture" id=209]
+[ext_resource path="res://Isometric/fenceStraight_SW.png" type="Texture" id=210]
+[ext_resource path="res://Isometric/flagCheckersSmall_NE.png" type="Texture" id=211]
+[ext_resource path="res://Isometric/flagCheckersSmall_NW.png" type="Texture" id=212]
+[ext_resource path="res://Isometric/flagCheckersSmall_SE.png" type="Texture" id=213]
+[ext_resource path="res://Isometric/flagCheckersSmall_SW.png" type="Texture" id=214]
+[ext_resource path="res://Isometric/flagCheckers_NE.png" type="Texture" id=215]
+[ext_resource path="res://Isometric/flagCheckers_NW.png" type="Texture" id=216]
+[ext_resource path="res://Isometric/flagCheckers_SE.png" type="Texture" id=217]
+[ext_resource path="res://Isometric/flagCheckers_SW.png" type="Texture" id=218]
+[ext_resource path="res://Isometric/barrierWall_NE.png" type="Texture" id=219]
+[ext_resource path="res://Isometric/flagGreen_NE.png" type="Texture" id=220]
+[ext_resource path="res://Isometric/flagGreen_NW.png" type="Texture" id=221]
+[ext_resource path="res://Isometric/flagGreen_SE.png" type="Texture" id=222]
+[ext_resource path="res://Isometric/flagGreen_SW.png" type="Texture" id=223]
+[ext_resource path="res://Isometric/flagRed_NE.png" type="Texture" id=224]
+[ext_resource path="res://Isometric/flagRed_NW.png" type="Texture" id=225]
+[ext_resource path="res://Isometric/flagRed_SE.png" type="Texture" id=226]
+[ext_resource path="res://Isometric/flagRed_SW.png" type="Texture" id=227]
+[ext_resource path="res://Isometric/flagTankco_NE.png" type="Texture" id=228]
+[ext_resource path="res://Isometric/flagTankco_NW.png" type="Texture" id=229]
+[ext_resource path="res://Isometric/barrierWall_NW.png" type="Texture" id=230]
+[ext_resource path="res://Isometric/flagTankco_SE.png" type="Texture" id=231]
+[ext_resource path="res://Isometric/flagTankco_SW.png" type="Texture" id=232]
+[ext_resource path="res://Isometric/grandStandCovered_NE.png" type="Texture" id=233]
+[ext_resource path="res://Isometric/grandStandCovered_NW.png" type="Texture" id=234]
+[ext_resource path="res://Isometric/grandStandCovered_SE.png" type="Texture" id=235]
+[ext_resource path="res://Isometric/grandStandCovered_SW.png" type="Texture" id=236]
+[ext_resource path="res://Isometric/grandStand_NE.png" type="Texture" id=237]
+[ext_resource path="res://Isometric/grandStand_NW.png" type="Texture" id=238]
+[ext_resource path="res://Isometric/grandStand_SE.png" type="Texture" id=239]
+[ext_resource path="res://Isometric/grandStand_SW.png" type="Texture" id=240]
+[ext_resource path="res://Isometric/barrierWall_SE.png" type="Texture" id=241]
+[ext_resource path="res://Isometric/grass_NE.png" type="Texture" id=242]
+[ext_resource path="res://Isometric/grass_NW.png" type="Texture" id=243]
+[ext_resource path="res://Isometric/grass_SE.png" type="Texture" id=244]
+[ext_resource path="res://Isometric/grass_SW.png" type="Texture" id=245]
+[ext_resource path="res://Isometric/lightColored_NE.png" type="Texture" id=246]
+[ext_resource path="res://Isometric/lightColored_NW.png" type="Texture" id=247]
+[ext_resource path="res://Isometric/lightColored_SE.png" type="Texture" id=248]
+[ext_resource path="res://Isometric/lightColored_SW.png" type="Texture" id=249]
+[ext_resource path="res://Isometric/lightRedDouble_NE.png" type="Texture" id=250]
+[ext_resource path="res://Isometric/lightRedDouble_NW.png" type="Texture" id=251]
+[ext_resource path="res://Isometric/barrierWall_SW.png" type="Texture" id=252]
+[ext_resource path="res://Isometric/lightRedDouble_SE.png" type="Texture" id=253]
+[ext_resource path="res://Isometric/lightRedDouble_SW.png" type="Texture" id=254]
+[ext_resource path="res://Isometric/lightRed_NE.png" type="Texture" id=255]
+[ext_resource path="res://Isometric/lightRed_NW.png" type="Texture" id=256]
+[ext_resource path="res://Isometric/lightRed_SE.png" type="Texture" id=257]
+[ext_resource path="res://Isometric/lightRed_SW.png" type="Texture" id=258]
+[ext_resource path="res://Isometric/overheadLights_NE.png" type="Texture" id=259]
+[ext_resource path="res://Isometric/overheadLights_NW.png" type="Texture" id=260]
+[ext_resource path="res://Isometric/overheadLights_SE.png" type="Texture" id=261]
+[ext_resource path="res://Isometric/overheadLights_SW.png" type="Texture" id=262]
+[ext_resource path="res://Isometric/barrierWhite_NE.png" type="Texture" id=263]
+[ext_resource path="res://Isometric/overheadRoundColored_NE.png" type="Texture" id=264]
+[ext_resource path="res://Isometric/overheadRoundColored_NW.png" type="Texture" id=265]
+[ext_resource path="res://Isometric/overheadRoundColored_SE.png" type="Texture" id=266]
+[ext_resource path="res://Isometric/overheadRoundColored_SW.png" type="Texture" id=267]
+[ext_resource path="res://Isometric/overheadRound_NE.png" type="Texture" id=268]
+[ext_resource path="res://Isometric/overheadRound_NW.png" type="Texture" id=269]
+[ext_resource path="res://Isometric/overheadRound_SE.png" type="Texture" id=270]
+[ext_resource path="res://Isometric/overheadRound_SW.png" type="Texture" id=271]
+[ext_resource path="res://Isometric/overhead_NE.png" type="Texture" id=272]
+[ext_resource path="res://Isometric/overhead_NW.png" type="Texture" id=273]
+[ext_resource path="res://Isometric/barrierWhite_NW.png" type="Texture" id=274]
+[ext_resource path="res://Isometric/overhead_SE.png" type="Texture" id=275]
+[ext_resource path="res://Isometric/overhead_SW.png" type="Texture" id=276]
+[ext_resource path="res://Isometric/pitsGarageCorner_NE.png" type="Texture" id=277]
+[ext_resource path="res://Isometric/pitsGarageCorner_NW.png" type="Texture" id=278]
+[ext_resource path="res://Isometric/pitsGarageCorner_SE.png" type="Texture" id=279]
+[ext_resource path="res://Isometric/pitsGarageCorner_SW.png" type="Texture" id=280]
+[ext_resource path="res://Isometric/pitsGarage_NE.png" type="Texture" id=281]
+[ext_resource path="res://Isometric/pitsGarage_NW.png" type="Texture" id=282]
+[ext_resource path="res://Isometric/pitsGarage_SE.png" type="Texture" id=283]
+[ext_resource path="res://Isometric/pitsGarage_SW.png" type="Texture" id=284]
+
+[resource]
+
+0/name = "barrierRed_NE"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 29, 28 )
+0/is_autotile = false
+0/occluder_offset = Vector2( 14.5, 14 )
+0/navigation_offset = Vector2( 14.5, 14 )
+0/shapes = [  ]
+1/name = "barrierRed_NW"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 28, 28 )
+1/is_autotile = false
+1/occluder_offset = Vector2( 14, 14 )
+1/navigation_offset = Vector2( 14, 14 )
+1/shapes = [  ]
+2/name = "barrierRed_SE"
+2/texture = ExtResource( 113 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 28, 29 )
+2/is_autotile = false
+2/occluder_offset = Vector2( 14, 14.5 )
+2/navigation_offset = Vector2( 14, 14.5 )
+2/shapes = [  ]
+3/name = "barrierRed_SW"
+3/texture = ExtResource( 208 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 29, 29 )
+3/is_autotile = false
+3/occluder_offset = Vector2( 14.5, 14.5 )
+3/navigation_offset = Vector2( 14.5, 14.5 )
+3/shapes = [  ]
+4/name = "barrierWall_NE"
+4/texture = ExtResource( 219 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 85, 69 )
+4/is_autotile = false
+4/occluder_offset = Vector2( 42.5, 34.5 )
+4/navigation_offset = Vector2( 42.5, 34.5 )
+4/shapes = [  ]
+5/name = "barrierWall_NW"
+5/texture = ExtResource( 230 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 85, 68 )
+5/is_autotile = false
+5/occluder_offset = Vector2( 42.5, 34 )
+5/navigation_offset = Vector2( 42.5, 34 )
+5/shapes = [  ]
+6/name = "barrierWall_SE"
+6/texture = ExtResource( 241 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 85, 69 )
+6/is_autotile = false
+6/occluder_offset = Vector2( 42.5, 34.5 )
+6/navigation_offset = Vector2( 42.5, 34.5 )
+6/shapes = [  ]
+7/name = "barrierWall_SW"
+7/texture = ExtResource( 252 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 85, 69 )
+7/is_autotile = false
+7/occluder_offset = Vector2( 42.5, 34.5 )
+7/navigation_offset = Vector2( 42.5, 34.5 )
+7/shapes = [  ]
+8/name = "barrierWhite_NE"
+8/texture = ExtResource( 263 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 29, 28 )
+8/is_autotile = false
+8/occluder_offset = Vector2( 14.5, 14 )
+8/navigation_offset = Vector2( 14.5, 14 )
+8/shapes = [  ]
+9/name = "barrierWhite_NW"
+9/texture = ExtResource( 274 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 28, 28 )
+9/is_autotile = false
+9/occluder_offset = Vector2( 14, 14 )
+9/navigation_offset = Vector2( 14, 14 )
+9/shapes = [  ]
+10/name = "barrierWhite_SE"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 28, 29 )
+10/is_autotile = false
+10/occluder_offset = Vector2( 14, 14.5 )
+10/navigation_offset = Vector2( 14, 14.5 )
+10/shapes = [  ]
+11/name = "barrierWhite_SW"
+11/texture = ExtResource( 14 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 29, 29 )
+11/is_autotile = false
+11/occluder_offset = Vector2( 14.5, 14.5 )
+11/navigation_offset = Vector2( 14.5, 14.5 )
+11/shapes = [  ]
+12/name = "billboardLower_NE"
+12/texture = ExtResource( 25 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 41, 49 )
+12/is_autotile = false
+12/occluder_offset = Vector2( 20.5, 24.5 )
+12/navigation_offset = Vector2( 20.5, 24.5 )
+12/shapes = [  ]
+13/name = "billboardLower_NW"
+13/texture = ExtResource( 36 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 41, 48 )
+13/is_autotile = false
+13/occluder_offset = Vector2( 20.5, 24 )
+13/navigation_offset = Vector2( 20.5, 24 )
+13/shapes = [  ]
+14/name = "billboardLower_SE"
+14/texture = ExtResource( 47 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 41, 48 )
+14/is_autotile = false
+14/occluder_offset = Vector2( 20.5, 24 )
+14/navigation_offset = Vector2( 20.5, 24 )
+14/shapes = [  ]
+15/name = "billboardLower_SW"
+15/texture = ExtResource( 58 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 41, 48 )
+15/is_autotile = false
+15/occluder_offset = Vector2( 20.5, 24 )
+15/navigation_offset = Vector2( 20.5, 24 )
+15/shapes = [  ]
+16/name = "billboardLow_NE"
+16/texture = ExtResource( 69 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 107, 127 )
+16/is_autotile = false
+16/occluder_offset = Vector2( 53.5, 63.5 )
+16/navigation_offset = Vector2( 53.5, 63.5 )
+16/shapes = [  ]
+17/name = "billboardLow_NW"
+17/texture = ExtResource( 80 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 107, 128 )
+17/is_autotile = false
+17/occluder_offset = Vector2( 53.5, 64 )
+17/navigation_offset = Vector2( 53.5, 64 )
+17/shapes = [  ]
+18/name = "billboardLow_SE"
+18/texture = ExtResource( 91 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 0, 0, 107, 103 )
+18/is_autotile = false
+18/occluder_offset = Vector2( 53.5, 51.5 )
+18/navigation_offset = Vector2( 53.5, 51.5 )
+18/shapes = [  ]
+19/name = "billboardLow_SW"
+19/texture = ExtResource( 102 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 0, 0, 107, 102 )
+19/is_autotile = false
+19/occluder_offset = Vector2( 53.5, 51 )
+19/navigation_offset = Vector2( 53.5, 51 )
+19/shapes = [  ]
+20/name = "billboard_NE"
+20/texture = ExtResource( 114 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 0, 0, 107, 151 )
+20/is_autotile = false
+20/occluder_offset = Vector2( 53.5, 75.5 )
+20/navigation_offset = Vector2( 53.5, 75.5 )
+20/shapes = [  ]
+21/name = "billboard_NW"
+21/texture = ExtResource( 125 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 0, 0, 107, 151 )
+21/is_autotile = false
+21/occluder_offset = Vector2( 53.5, 75.5 )
+21/navigation_offset = Vector2( 53.5, 75.5 )
+21/shapes = [  ]
+22/name = "billboard_SE"
+22/texture = ExtResource( 136 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 0, 0, 107, 126 )
+22/is_autotile = false
+22/occluder_offset = Vector2( 53.5, 63 )
+22/navigation_offset = Vector2( 53.5, 63 )
+22/shapes = [  ]
+23/name = "billboard_SW"
+23/texture = ExtResource( 147 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 0, 0, 107, 125 )
+23/is_autotile = false
+23/occluder_offset = Vector2( 53.5, 62.5 )
+23/navigation_offset = Vector2( 53.5, 62.5 )
+23/shapes = [  ]
+24/name = "fenceCurved_NE"
+24/texture = ExtResource( 158 )
+24/tex_offset = Vector2( 0, 0 )
+24/modulate = Color( 1, 1, 1, 1 )
+24/region = Rect2( 0, 0, 100, 108 )
+24/is_autotile = false
+24/occluder_offset = Vector2( 50, 54 )
+24/navigation_offset = Vector2( 50, 54 )
+24/shapes = [  ]
+25/name = "fenceCurved_NW"
+25/texture = ExtResource( 169 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 0, 0, 100, 109 )
+25/is_autotile = false
+25/occluder_offset = Vector2( 50, 54.5 )
+25/navigation_offset = Vector2( 50, 54.5 )
+25/shapes = [  ]
+26/name = "fenceCurved_SE"
+26/texture = ExtResource( 180 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 0, 0, 100, 132 )
+26/is_autotile = false
+26/occluder_offset = Vector2( 50, 66 )
+26/navigation_offset = Vector2( 50, 66 )
+26/shapes = [  ]
+27/name = "fenceCurved_SW"
+27/texture = ExtResource( 191 )
+27/tex_offset = Vector2( 0, 0 )
+27/modulate = Color( 1, 1, 1, 1 )
+27/region = Rect2( 0, 0, 100, 132 )
+27/is_autotile = false
+27/occluder_offset = Vector2( 50, 66 )
+27/navigation_offset = Vector2( 50, 66 )
+27/shapes = [  ]
+28/name = "fenceStraight_NE"
+28/texture = ExtResource( 202 )
+28/tex_offset = Vector2( 0, 0 )
+28/modulate = Color( 1, 1, 1, 1 )
+28/region = Rect2( 0, 0, 78, 93 )
+28/is_autotile = false
+28/occluder_offset = Vector2( 39, 46.5 )
+28/navigation_offset = Vector2( 39, 46.5 )
+28/shapes = [  ]
+29/name = "fenceStraight_NW"
+29/texture = ExtResource( 207 )
+29/tex_offset = Vector2( 0, 0 )
+29/modulate = Color( 1, 1, 1, 1 )
+29/region = Rect2( 0, 0, 78, 93 )
+29/is_autotile = false
+29/occluder_offset = Vector2( 39, 46.5 )
+29/navigation_offset = Vector2( 39, 46.5 )
+29/shapes = [  ]
+30/name = "fenceStraight_SE"
+30/texture = ExtResource( 209 )
+30/tex_offset = Vector2( 0, 0 )
+30/modulate = Color( 1, 1, 1, 1 )
+30/region = Rect2( 0, 0, 79, 94 )
+30/is_autotile = false
+30/occluder_offset = Vector2( 39.5, 47 )
+30/navigation_offset = Vector2( 39.5, 47 )
+30/shapes = [  ]
+31/name = "fenceStraight_SW"
+31/texture = ExtResource( 210 )
+31/tex_offset = Vector2( 0, 0 )
+31/modulate = Color( 1, 1, 1, 1 )
+31/region = Rect2( 0, 0, 78, 93 )
+31/is_autotile = false
+31/occluder_offset = Vector2( 39, 46.5 )
+31/navigation_offset = Vector2( 39, 46.5 )
+31/shapes = [  ]
+32/name = "flagCheckersSmall_NE"
+32/texture = ExtResource( 211 )
+32/tex_offset = Vector2( 0, 0 )
+32/modulate = Color( 1, 1, 1, 1 )
+32/region = Rect2( 0, 0, 16, 30 )
+32/is_autotile = false
+32/occluder_offset = Vector2( 8, 15 )
+32/navigation_offset = Vector2( 8, 15 )
+32/shapes = [  ]
+33/name = "flagCheckersSmall_NW"
+33/texture = ExtResource( 212 )
+33/tex_offset = Vector2( 0, 0 )
+33/modulate = Color( 1, 1, 1, 1 )
+33/region = Rect2( 0, 0, 16, 38 )
+33/is_autotile = false
+33/occluder_offset = Vector2( 8, 19 )
+33/navigation_offset = Vector2( 8, 19 )
+33/shapes = [  ]
+34/name = "flagCheckersSmall_SE"
+34/texture = ExtResource( 213 )
+34/tex_offset = Vector2( 0, 0 )
+34/modulate = Color( 1, 1, 1, 1 )
+34/region = Rect2( 0, 0, 16, 38 )
+34/is_autotile = false
+34/occluder_offset = Vector2( 8, 19 )
+34/navigation_offset = Vector2( 8, 19 )
+34/shapes = [  ]
+35/name = "flagCheckersSmall_SW"
+35/texture = ExtResource( 214 )
+35/tex_offset = Vector2( 0, 0 )
+35/modulate = Color( 1, 1, 1, 1 )
+35/region = Rect2( 0, 0, 16, 30 )
+35/is_autotile = false
+35/occluder_offset = Vector2( 8, 15 )
+35/navigation_offset = Vector2( 8, 15 )
+35/shapes = [  ]
+36/name = "flagCheckers_NE"
+36/texture = ExtResource( 215 )
+36/tex_offset = Vector2( 0, 0 )
+36/modulate = Color( 1, 1, 1, 1 )
+36/region = Rect2( 0, 0, 16, 95 )
+36/is_autotile = false
+36/occluder_offset = Vector2( 8, 47.5 )
+36/navigation_offset = Vector2( 8, 47.5 )
+36/shapes = [  ]
+37/name = "flagCheckers_NW"
+37/texture = ExtResource( 216 )
+37/tex_offset = Vector2( 0, 0 )
+37/modulate = Color( 1, 1, 1, 1 )
+37/region = Rect2( 0, 0, 16, 103 )
+37/is_autotile = false
+37/occluder_offset = Vector2( 8, 51.5 )
+37/navigation_offset = Vector2( 8, 51.5 )
+37/shapes = [  ]
+38/name = "flagCheckers_SE"
+38/texture = ExtResource( 217 )
+38/tex_offset = Vector2( 0, 0 )
+38/modulate = Color( 1, 1, 1, 1 )
+38/region = Rect2( 0, 0, 16, 103 )
+38/is_autotile = false
+38/occluder_offset = Vector2( 8, 51.5 )
+38/navigation_offset = Vector2( 8, 51.5 )
+38/shapes = [  ]
+39/name = "flagCheckers_SW"
+39/texture = ExtResource( 218 )
+39/tex_offset = Vector2( 0, 0 )
+39/modulate = Color( 1, 1, 1, 1 )
+39/region = Rect2( 0, 0, 16, 95 )
+39/is_autotile = false
+39/occluder_offset = Vector2( 8, 47.5 )
+39/navigation_offset = Vector2( 8, 47.5 )
+39/shapes = [  ]
+40/name = "flagGreen_NE"
+40/texture = ExtResource( 220 )
+40/tex_offset = Vector2( 0, 0 )
+40/modulate = Color( 1, 1, 1, 1 )
+40/region = Rect2( 0, 0, 16, 95 )
+40/is_autotile = false
+40/occluder_offset = Vector2( 8, 47.5 )
+40/navigation_offset = Vector2( 8, 47.5 )
+40/shapes = [  ]
+41/name = "flagGreen_NW"
+41/texture = ExtResource( 221 )
+41/tex_offset = Vector2( 0, 0 )
+41/modulate = Color( 1, 1, 1, 1 )
+41/region = Rect2( 0, 0, 16, 103 )
+41/is_autotile = false
+41/occluder_offset = Vector2( 8, 51.5 )
+41/navigation_offset = Vector2( 8, 51.5 )
+41/shapes = [  ]
+42/name = "flagGreen_SE"
+42/texture = ExtResource( 222 )
+42/tex_offset = Vector2( 0, 0 )
+42/modulate = Color( 1, 1, 1, 1 )
+42/region = Rect2( 0, 0, 16, 103 )
+42/is_autotile = false
+42/occluder_offset = Vector2( 8, 51.5 )
+42/navigation_offset = Vector2( 8, 51.5 )
+42/shapes = [  ]
+43/name = "flagGreen_SW"
+43/texture = ExtResource( 223 )
+43/tex_offset = Vector2( 0, 0 )
+43/modulate = Color( 1, 1, 1, 1 )
+43/region = Rect2( 0, 0, 16, 95 )
+43/is_autotile = false
+43/occluder_offset = Vector2( 8, 47.5 )
+43/navigation_offset = Vector2( 8, 47.5 )
+43/shapes = [  ]
+44/name = "flagRed_NE"
+44/texture = ExtResource( 224 )
+44/tex_offset = Vector2( 0, 0 )
+44/modulate = Color( 1, 1, 1, 1 )
+44/region = Rect2( 0, 0, 16, 95 )
+44/is_autotile = false
+44/occluder_offset = Vector2( 8, 47.5 )
+44/navigation_offset = Vector2( 8, 47.5 )
+44/shapes = [  ]
+45/name = "flagRed_NW"
+45/texture = ExtResource( 225 )
+45/tex_offset = Vector2( 0, 0 )
+45/modulate = Color( 1, 1, 1, 1 )
+45/region = Rect2( 0, 0, 16, 103 )
+45/is_autotile = false
+45/occluder_offset = Vector2( 8, 51.5 )
+45/navigation_offset = Vector2( 8, 51.5 )
+45/shapes = [  ]
+46/name = "flagRed_SE"
+46/texture = ExtResource( 226 )
+46/tex_offset = Vector2( 0, 0 )
+46/modulate = Color( 1, 1, 1, 1 )
+46/region = Rect2( 0, 0, 16, 103 )
+46/is_autotile = false
+46/occluder_offset = Vector2( 8, 51.5 )
+46/navigation_offset = Vector2( 8, 51.5 )
+46/shapes = [  ]
+47/name = "flagRed_SW"
+47/texture = ExtResource( 227 )
+47/tex_offset = Vector2( 0, 0 )
+47/modulate = Color( 1, 1, 1, 1 )
+47/region = Rect2( 0, 0, 16, 95 )
+47/is_autotile = false
+47/occluder_offset = Vector2( 8, 47.5 )
+47/navigation_offset = Vector2( 8, 47.5 )
+47/shapes = [  ]
+48/name = "flagTankco_NE"
+48/texture = ExtResource( 228 )
+48/tex_offset = Vector2( 0, 0 )
+48/modulate = Color( 1, 1, 1, 1 )
+48/region = Rect2( 0, 0, 16, 95 )
+48/is_autotile = false
+48/occluder_offset = Vector2( 8, 47.5 )
+48/navigation_offset = Vector2( 8, 47.5 )
+48/shapes = [  ]
+49/name = "flagTankco_NW"
+49/texture = ExtResource( 229 )
+49/tex_offset = Vector2( 0, 0 )
+49/modulate = Color( 1, 1, 1, 1 )
+49/region = Rect2( 0, 0, 16, 103 )
+49/is_autotile = false
+49/occluder_offset = Vector2( 8, 51.5 )
+49/navigation_offset = Vector2( 8, 51.5 )
+49/shapes = [  ]
+50/name = "flagTankco_SE"
+50/texture = ExtResource( 231 )
+50/tex_offset = Vector2( 0, 0 )
+50/modulate = Color( 1, 1, 1, 1 )
+50/region = Rect2( 0, 0, 16, 103 )
+50/is_autotile = false
+50/occluder_offset = Vector2( 8, 51.5 )
+50/navigation_offset = Vector2( 8, 51.5 )
+50/shapes = [  ]
+51/name = "flagTankco_SW"
+51/texture = ExtResource( 232 )
+51/tex_offset = Vector2( 0, 0 )
+51/modulate = Color( 1, 1, 1, 1 )
+51/region = Rect2( 0, 0, 16, 95 )
+51/is_autotile = false
+51/occluder_offset = Vector2( 8, 47.5 )
+51/navigation_offset = Vector2( 8, 47.5 )
+51/shapes = [  ]
+52/name = "grandStandCovered_NE"
+52/texture = ExtResource( 233 )
+52/tex_offset = Vector2( 0, -99 )
+52/modulate = Color( 1, 1, 1, 1 )
+52/region = Rect2( 0, 0, 153, 196 )
+52/is_autotile = false
+52/occluder_offset = Vector2( 76.5, 98 )
+52/navigation_offset = Vector2( 76.5, 98 )
+52/shapes = [  ]
+53/name = "grandStandCovered_NW"
+53/texture = ExtResource( 234 )
+53/tex_offset = Vector2( 0, -99 )
+53/modulate = Color( 1, 1, 1, 1 )
+53/region = Rect2( 0, 0, 153, 196 )
+53/is_autotile = false
+53/occluder_offset = Vector2( 76.5, 98 )
+53/navigation_offset = Vector2( 76.5, 98 )
+53/shapes = [  ]
+54/name = "grandStandCovered_SE"
+54/texture = ExtResource( 235 )
+54/tex_offset = Vector2( 0, -99 )
+54/modulate = Color( 1, 1, 1, 1 )
+54/region = Rect2( 0, 0, 152, 191 )
+54/is_autotile = false
+54/occluder_offset = Vector2( 76, 95.5 )
+54/navigation_offset = Vector2( 76, 95.5 )
+54/shapes = [  ]
+55/name = "grandStandCovered_SW"
+55/texture = ExtResource( 236 )
+55/tex_offset = Vector2( 0.637939, -80.2823 )
+55/modulate = Color( 1, 1, 1, 1 )
+55/region = Rect2( 0, 0, 152, 190 )
+55/is_autotile = false
+55/occluder_offset = Vector2( 76, 95 )
+55/navigation_offset = Vector2( 76, 95 )
+55/shapes = [  ]
+56/name = "grandStand_NE"
+56/texture = ExtResource( 237 )
+56/tex_offset = Vector2( 0, 0 )
+56/modulate = Color( 1, 1, 1, 1 )
+56/region = Rect2( 0, 0, 151, 140 )
+56/is_autotile = false
+56/occluder_offset = Vector2( 75.5, 70 )
+56/navigation_offset = Vector2( 75.5, 70 )
+56/shapes = [  ]
+57/name = "grandStand_NW"
+57/texture = ExtResource( 238 )
+57/tex_offset = Vector2( 0, 0 )
+57/modulate = Color( 1, 1, 1, 1 )
+57/region = Rect2( 0, 0, 151, 141 )
+57/is_autotile = false
+57/occluder_offset = Vector2( 75.5, 70.5 )
+57/navigation_offset = Vector2( 75.5, 70.5 )
+57/shapes = [  ]
+58/name = "grandStand_SE"
+58/texture = ExtResource( 239 )
+58/tex_offset = Vector2( 0, 0 )
+58/modulate = Color( 1, 1, 1, 1 )
+58/region = Rect2( 0, 0, 151, 175 )
+58/is_autotile = false
+58/occluder_offset = Vector2( 75.5, 87.5 )
+58/navigation_offset = Vector2( 75.5, 87.5 )
+58/shapes = [  ]
+59/name = "grandStand_SW"
+59/texture = ExtResource( 240 )
+59/tex_offset = Vector2( 0, 0 )
+59/modulate = Color( 1, 1, 1, 1 )
+59/region = Rect2( 0, 0, 151, 175 )
+59/is_autotile = false
+59/occluder_offset = Vector2( 75.5, 87.5 )
+59/navigation_offset = Vector2( 75.5, 87.5 )
+59/shapes = [  ]
+60/name = "grass_NE"
+60/texture = ExtResource( 242 )
+60/tex_offset = Vector2( 0, 0 )
+60/modulate = Color( 1, 1, 1, 1 )
+60/region = Rect2( 0, 0, 151, 107 )
+60/is_autotile = false
+60/occluder_offset = Vector2( 75.5, 53.5 )
+60/navigation_offset = Vector2( 75.5, 53.5 )
+60/shapes = [  ]
+61/name = "grass_NW"
+61/texture = ExtResource( 243 )
+61/tex_offset = Vector2( 0, 0 )
+61/modulate = Color( 1, 1, 1, 1 )
+61/region = Rect2( 0, 0, 151, 107 )
+61/is_autotile = false
+61/occluder_offset = Vector2( 75.5, 53.5 )
+61/navigation_offset = Vector2( 75.5, 53.5 )
+61/shapes = [  ]
+62/name = "grass_SE"
+62/texture = ExtResource( 244 )
+62/tex_offset = Vector2( 0, 0 )
+62/modulate = Color( 1, 1, 1, 1 )
+62/region = Rect2( 0, 0, 151, 107 )
+62/is_autotile = false
+62/occluder_offset = Vector2( 75.5, 53.5 )
+62/navigation_offset = Vector2( 75.5, 53.5 )
+62/shapes = [  ]
+63/name = "grass_SW"
+63/texture = ExtResource( 245 )
+63/tex_offset = Vector2( 0, 0 )
+63/modulate = Color( 1, 1, 1, 1 )
+63/region = Rect2( 0, 0, 151, 107 )
+63/is_autotile = false
+63/occluder_offset = Vector2( 75.5, 53.5 )
+63/navigation_offset = Vector2( 75.5, 53.5 )
+63/shapes = [  ]
+64/name = "lightColored_NE"
+64/texture = ExtResource( 246 )
+64/tex_offset = Vector2( 0, 0 )
+64/modulate = Color( 1, 1, 1, 1 )
+64/region = Rect2( 0, 0, 12, 56 )
+64/is_autotile = false
+64/occluder_offset = Vector2( 6, 28 )
+64/navigation_offset = Vector2( 6, 28 )
+64/shapes = [  ]
+65/name = "lightColored_NW"
+65/texture = ExtResource( 247 )
+65/tex_offset = Vector2( 0, 0 )
+65/modulate = Color( 1, 1, 1, 1 )
+65/region = Rect2( 0, 0, 12, 56 )
+65/is_autotile = false
+65/occluder_offset = Vector2( 6, 28 )
+65/navigation_offset = Vector2( 6, 28 )
+65/shapes = [  ]
+66/name = "lightColored_SE"
+66/texture = ExtResource( 248 )
+66/tex_offset = Vector2( 0, 0 )
+66/modulate = Color( 1, 1, 1, 1 )
+66/region = Rect2( 0, 0, 12, 52 )
+66/is_autotile = false
+66/occluder_offset = Vector2( 6, 26 )
+66/navigation_offset = Vector2( 6, 26 )
+66/shapes = [  ]
+67/name = "lightColored_SW"
+67/texture = ExtResource( 249 )
+67/tex_offset = Vector2( 0, 0 )
+67/modulate = Color( 1, 1, 1, 1 )
+67/region = Rect2( 0, 0, 12, 52 )
+67/is_autotile = false
+67/occluder_offset = Vector2( 6, 26 )
+67/navigation_offset = Vector2( 6, 26 )
+67/shapes = [  ]
+68/name = "lightRedDouble_NE"
+68/texture = ExtResource( 250 )
+68/tex_offset = Vector2( 0, 0 )
+68/modulate = Color( 1, 1, 1, 1 )
+68/region = Rect2( 0, 0, 16, 61 )
+68/is_autotile = false
+68/occluder_offset = Vector2( 8, 30.5 )
+68/navigation_offset = Vector2( 8, 30.5 )
+68/shapes = [  ]
+69/name = "lightRedDouble_NW"
+69/texture = ExtResource( 251 )
+69/tex_offset = Vector2( 0, 0 )
+69/modulate = Color( 1, 1, 1, 1 )
+69/region = Rect2( 0, 0, 16, 61 )
+69/is_autotile = false
+69/occluder_offset = Vector2( 8, 30.5 )
+69/navigation_offset = Vector2( 8, 30.5 )
+69/shapes = [  ]
+70/name = "lightRedDouble_SE"
+70/texture = ExtResource( 253 )
+70/tex_offset = Vector2( 0, 0 )
+70/modulate = Color( 1, 1, 1, 1 )
+70/region = Rect2( 0, 0, 16, 55 )
+70/is_autotile = false
+70/occluder_offset = Vector2( 8, 27.5 )
+70/navigation_offset = Vector2( 8, 27.5 )
+70/shapes = [  ]
+71/name = "lightRedDouble_SW"
+71/texture = ExtResource( 254 )
+71/tex_offset = Vector2( 0, 0 )
+71/modulate = Color( 1, 1, 1, 1 )
+71/region = Rect2( 0, 0, 16, 55 )
+71/is_autotile = false
+71/occluder_offset = Vector2( 8, 27.5 )
+71/navigation_offset = Vector2( 8, 27.5 )
+71/shapes = [  ]
+72/name = "lightRed_NE"
+72/texture = ExtResource( 255 )
+72/tex_offset = Vector2( 0, 0 )
+72/modulate = Color( 1, 1, 1, 1 )
+72/region = Rect2( 0, 0, 12, 61 )
+72/is_autotile = false
+72/occluder_offset = Vector2( 6, 30.5 )
+72/navigation_offset = Vector2( 6, 30.5 )
+72/shapes = [  ]
+73/name = "lightRed_NW"
+73/texture = ExtResource( 256 )
+73/tex_offset = Vector2( 0, 0 )
+73/modulate = Color( 1, 1, 1, 1 )
+73/region = Rect2( 0, 0, 12, 61 )
+73/is_autotile = false
+73/occluder_offset = Vector2( 6, 30.5 )
+73/navigation_offset = Vector2( 6, 30.5 )
+73/shapes = [  ]
+74/name = "lightRed_SE"
+74/texture = ExtResource( 257 )
+74/tex_offset = Vector2( 0, 0 )
+74/modulate = Color( 1, 1, 1, 1 )
+74/region = Rect2( 0, 0, 12, 55 )
+74/is_autotile = false
+74/occluder_offset = Vector2( 6, 27.5 )
+74/navigation_offset = Vector2( 6, 27.5 )
+74/shapes = [  ]
+75/name = "lightRed_SW"
+75/texture = ExtResource( 258 )
+75/tex_offset = Vector2( 0, 0 )
+75/modulate = Color( 1, 1, 1, 1 )
+75/region = Rect2( 0, 0, 12, 55 )
+75/is_autotile = false
+75/occluder_offset = Vector2( 6, 27.5 )
+75/navigation_offset = Vector2( 6, 27.5 )
+75/shapes = [  ]
+76/name = "overheadLights_NE"
+76/texture = ExtResource( 259 )
+76/tex_offset = Vector2( 0, 0 )
+76/modulate = Color( 1, 1, 1, 1 )
+76/region = Rect2( 0, 0, 109, 120 )
+76/is_autotile = false
+76/occluder_offset = Vector2( 54.5, 60 )
+76/navigation_offset = Vector2( 54.5, 60 )
+76/shapes = [  ]
+77/name = "overheadLights_NW"
+77/texture = ExtResource( 260 )
+77/tex_offset = Vector2( 0, 0 )
+77/modulate = Color( 1, 1, 1, 1 )
+77/region = Rect2( 0, 0, 110, 121 )
+77/is_autotile = false
+77/occluder_offset = Vector2( 55, 60.5 )
+77/navigation_offset = Vector2( 55, 60.5 )
+77/shapes = [  ]
+78/name = "overheadLights_SE"
+78/texture = ExtResource( 261 )
+78/tex_offset = Vector2( 0, 0 )
+78/modulate = Color( 1, 1, 1, 1 )
+78/region = Rect2( 0, 0, 110, 124 )
+78/is_autotile = false
+78/occluder_offset = Vector2( 55, 62 )
+78/navigation_offset = Vector2( 55, 62 )
+78/shapes = [  ]
+79/name = "overheadLights_SW"
+79/texture = ExtResource( 262 )
+79/tex_offset = Vector2( 0, 0 )
+79/modulate = Color( 1, 1, 1, 1 )
+79/region = Rect2( 0, 0, 110, 123 )
+79/is_autotile = false
+79/occluder_offset = Vector2( 55, 61.5 )
+79/navigation_offset = Vector2( 55, 61.5 )
+79/shapes = [  ]
+80/name = "overheadRoundColored_NE"
+80/texture = ExtResource( 264 )
+80/tex_offset = Vector2( 0, 0 )
+80/modulate = Color( 1, 1, 1, 1 )
+80/region = Rect2( 0, 0, 166, 154 )
+80/is_autotile = false
+80/occluder_offset = Vector2( 83, 77 )
+80/navigation_offset = Vector2( 83, 77 )
+80/shapes = [  ]
+81/name = "overheadRoundColored_NW"
+81/texture = ExtResource( 265 )
+81/tex_offset = Vector2( 0, 0 )
+81/modulate = Color( 1, 1, 1, 1 )
+81/region = Rect2( 0, 0, 166, 153 )
+81/is_autotile = false
+81/occluder_offset = Vector2( 83, 76.5 )
+81/navigation_offset = Vector2( 83, 76.5 )
+81/shapes = [  ]
+82/name = "overheadRoundColored_SE"
+82/texture = ExtResource( 266 )
+82/tex_offset = Vector2( 0, 0 )
+82/modulate = Color( 1, 1, 1, 1 )
+82/region = Rect2( 0, 0, 166, 153 )
+82/is_autotile = false
+82/occluder_offset = Vector2( 83, 76.5 )
+82/navigation_offset = Vector2( 83, 76.5 )
+82/shapes = [  ]
+83/name = "overheadRoundColored_SW"
+83/texture = ExtResource( 267 )
+83/tex_offset = Vector2( 0, 0 )
+83/modulate = Color( 1, 1, 1, 1 )
+83/region = Rect2( 0, 0, 166, 154 )
+83/is_autotile = false
+83/occluder_offset = Vector2( 83, 77 )
+83/navigation_offset = Vector2( 83, 77 )
+83/shapes = [  ]
+84/name = "overheadRound_NE"
+84/texture = ExtResource( 268 )
+84/tex_offset = Vector2( 0, 0 )
+84/modulate = Color( 1, 1, 1, 1 )
+84/region = Rect2( 0, 0, 166, 154 )
+84/is_autotile = false
+84/occluder_offset = Vector2( 83, 77 )
+84/navigation_offset = Vector2( 83, 77 )
+84/shapes = [  ]
+85/name = "overheadRound_NW"
+85/texture = ExtResource( 269 )
+85/tex_offset = Vector2( 0, 0 )
+85/modulate = Color( 1, 1, 1, 1 )
+85/region = Rect2( 0, 0, 166, 153 )
+85/is_autotile = false
+85/occluder_offset = Vector2( 83, 76.5 )
+85/navigation_offset = Vector2( 83, 76.5 )
+85/shapes = [  ]
+86/name = "overheadRound_SE"
+86/texture = ExtResource( 270 )
+86/tex_offset = Vector2( 0, 0 )
+86/modulate = Color( 1, 1, 1, 1 )
+86/region = Rect2( 0, 0, 166, 153 )
+86/is_autotile = false
+86/occluder_offset = Vector2( 83, 76.5 )
+86/navigation_offset = Vector2( 83, 76.5 )
+86/shapes = [  ]
+87/name = "overheadRound_SW"
+87/texture = ExtResource( 271 )
+87/tex_offset = Vector2( 0, 0 )
+87/modulate = Color( 1, 1, 1, 1 )
+87/region = Rect2( 0, 0, 166, 154 )
+87/is_autotile = false
+87/occluder_offset = Vector2( 83, 77 )
+87/navigation_offset = Vector2( 83, 77 )
+87/shapes = [  ]
+88/name = "overhead_NE"
+88/texture = ExtResource( 272 )
+88/tex_offset = Vector2( 0, 0 )
+88/modulate = Color( 1, 1, 1, 1 )
+88/region = Rect2( 0, 0, 109, 120 )
+88/is_autotile = false
+88/occluder_offset = Vector2( 54.5, 60 )
+88/navigation_offset = Vector2( 54.5, 60 )
+88/shapes = [  ]
+89/name = "overhead_NW"
+89/texture = ExtResource( 273 )
+89/tex_offset = Vector2( 0, 0 )
+89/modulate = Color( 1, 1, 1, 1 )
+89/region = Rect2( 0, 0, 110, 121 )
+89/is_autotile = false
+89/occluder_offset = Vector2( 55, 60.5 )
+89/navigation_offset = Vector2( 55, 60.5 )
+89/shapes = [  ]
+90/name = "overhead_SE"
+90/texture = ExtResource( 275 )
+90/tex_offset = Vector2( 0, 0 )
+90/modulate = Color( 1, 1, 1, 1 )
+90/region = Rect2( 0, 0, 110, 124 )
+90/is_autotile = false
+90/occluder_offset = Vector2( 55, 62 )
+90/navigation_offset = Vector2( 55, 62 )
+90/shapes = [  ]
+91/name = "overhead_SW"
+91/texture = ExtResource( 276 )
+91/tex_offset = Vector2( 0, 0 )
+91/modulate = Color( 1, 1, 1, 1 )
+91/region = Rect2( 0, 0, 110, 123 )
+91/is_autotile = false
+91/occluder_offset = Vector2( 55, 61.5 )
+91/navigation_offset = Vector2( 55, 61.5 )
+91/shapes = [  ]
+92/name = "pitsGarageCorner_NE"
+92/texture = ExtResource( 277 )
+92/tex_offset = Vector2( 0, 0 )
+92/modulate = Color( 1, 1, 1, 1 )
+92/region = Rect2( 0, 0, 151, 160 )
+92/is_autotile = false
+92/occluder_offset = Vector2( 75.5, 80 )
+92/navigation_offset = Vector2( 75.5, 80 )
+92/shapes = [  ]
+93/name = "pitsGarageCorner_NW"
+93/texture = ExtResource( 278 )
+93/tex_offset = Vector2( 0, 0 )
+93/modulate = Color( 1, 1, 1, 1 )
+93/region = Rect2( 0, 0, 151, 160 )
+93/is_autotile = false
+93/occluder_offset = Vector2( 75.5, 80 )
+93/navigation_offset = Vector2( 75.5, 80 )
+93/shapes = [  ]
+94/name = "pitsGarageCorner_SE"
+94/texture = ExtResource( 279 )
+94/tex_offset = Vector2( 0, 0 )
+94/modulate = Color( 1, 1, 1, 1 )
+94/region = Rect2( 0, 0, 151, 160 )
+94/is_autotile = false
+94/occluder_offset = Vector2( 75.5, 80 )
+94/navigation_offset = Vector2( 75.5, 80 )
+94/shapes = [  ]
+95/name = "pitsGarageCorner_SW"
+95/texture = ExtResource( 280 )
+95/tex_offset = Vector2( 0, 0 )
+95/modulate = Color( 1, 1, 1, 1 )
+95/region = Rect2( 0, 0, 151, 160 )
+95/is_autotile = false
+95/occluder_offset = Vector2( 75.5, 80 )
+95/navigation_offset = Vector2( 75.5, 80 )
+95/shapes = [  ]
+96/name = "pitsGarage_NE"
+96/texture = ExtResource( 281 )
+96/tex_offset = Vector2( 0, 0 )
+96/modulate = Color( 1, 1, 1, 1 )
+96/region = Rect2( 0, 0, 158, 164 )
+96/is_autotile = false
+96/occluder_offset = Vector2( 79, 82 )
+96/navigation_offset = Vector2( 79, 82 )
+96/shapes = [  ]
+97/name = "pitsGarage_NW"
+97/texture = ExtResource( 282 )
+97/tex_offset = Vector2( 0, 0 )
+97/modulate = Color( 1, 1, 1, 1 )
+97/region = Rect2( 0, 0, 158, 164 )
+97/is_autotile = false
+97/occluder_offset = Vector2( 79, 82 )
+97/navigation_offset = Vector2( 79, 82 )
+97/shapes = [  ]
+98/name = "pitsGarage_SE"
+98/texture = ExtResource( 283 )
+98/tex_offset = Vector2( 0, 0 )
+98/modulate = Color( 1, 1, 1, 1 )
+98/region = Rect2( 0, 0, 158, 160 )
+98/is_autotile = false
+98/occluder_offset = Vector2( 79, 80 )
+98/navigation_offset = Vector2( 79, 80 )
+98/shapes = [  ]
+99/name = "pitsGarage_SW"
+99/texture = ExtResource( 284 )
+99/tex_offset = Vector2( 0, 0 )
+99/modulate = Color( 1, 1, 1, 1 )
+99/region = Rect2( 0, 0, 158, 160 )
+99/is_autotile = false
+99/occluder_offset = Vector2( 79, 80 )
+99/navigation_offset = Vector2( 79, 80 )
+99/shapes = [  ]
+100/name = "pitsOfficeCorner_NE"
+100/texture = ExtResource( 4 )
+100/tex_offset = Vector2( 0, 0 )
+100/modulate = Color( 1, 1, 1, 1 )
+100/region = Rect2( 0, 0, 157, 147 )
+100/is_autotile = false
+100/occluder_offset = Vector2( 78.5, 73.5 )
+100/navigation_offset = Vector2( 78.5, 73.5 )
+100/shapes = [  ]
+101/name = "pitsOfficeCorner_NW"
+101/texture = ExtResource( 5 )
+101/tex_offset = Vector2( 0, 0 )
+101/modulate = Color( 1, 1, 1, 1 )
+101/region = Rect2( 0, 0, 157, 150 )
+101/is_autotile = false
+101/occluder_offset = Vector2( 78.5, 75 )
+101/navigation_offset = Vector2( 78.5, 75 )
+101/shapes = [  ]
+102/name = "pitsOfficeCorner_SE"
+102/texture = ExtResource( 6 )
+102/tex_offset = Vector2( 0, 0 )
+102/modulate = Color( 1, 1, 1, 1 )
+102/region = Rect2( 0, 0, 157, 148 )
+102/is_autotile = false
+102/occluder_offset = Vector2( 78.5, 74 )
+102/navigation_offset = Vector2( 78.5, 74 )
+102/shapes = [  ]
+103/name = "pitsOfficeCorner_SW"
+103/texture = ExtResource( 7 )
+103/tex_offset = Vector2( 0, 0 )
+103/modulate = Color( 1, 1, 1, 1 )
+103/region = Rect2( 0, 0, 157, 145 )
+103/is_autotile = false
+103/occluder_offset = Vector2( 78.5, 72.5 )
+103/navigation_offset = Vector2( 78.5, 72.5 )
+103/shapes = [  ]
+104/name = "pitsOffice_NE"
+104/texture = ExtResource( 8 )
+104/tex_offset = Vector2( 0, 0 )
+104/modulate = Color( 1, 1, 1, 1 )
+104/region = Rect2( 0, 0, 154, 147 )
+104/is_autotile = false
+104/occluder_offset = Vector2( 77, 73.5 )
+104/navigation_offset = Vector2( 77, 73.5 )
+104/shapes = [  ]
+105/name = "pitsOffice_NW"
+105/texture = ExtResource( 9 )
+105/tex_offset = Vector2( 0, 0 )
+105/modulate = Color( 1, 1, 1, 1 )
+105/region = Rect2( 0, 0, 154, 148 )
+105/is_autotile = false
+105/occluder_offset = Vector2( 77, 74 )
+105/navigation_offset = Vector2( 77, 74 )
+105/shapes = [  ]
+106/name = "pitsOffice_SE"
+106/texture = ExtResource( 10 )
+106/tex_offset = Vector2( 0, 0 )
+106/modulate = Color( 1, 1, 1, 1 )
+106/region = Rect2( 0, 0, 154, 146 )
+106/is_autotile = false
+106/occluder_offset = Vector2( 77, 73 )
+106/navigation_offset = Vector2( 77, 73 )
+106/shapes = [  ]
+107/name = "pitsOffice_SW"
+107/texture = ExtResource( 11 )
+107/tex_offset = Vector2( 0, 0 )
+107/modulate = Color( 1, 1, 1, 1 )
+107/region = Rect2( 0, 0, 154, 145 )
+107/is_autotile = false
+107/occluder_offset = Vector2( 77, 72.5 )
+107/navigation_offset = Vector2( 77, 72.5 )
+107/shapes = [  ]
+108/name = "pylon_NE"
+108/texture = ExtResource( 12 )
+108/tex_offset = Vector2( 0, 0 )
+108/modulate = Color( 1, 1, 1, 1 )
+108/region = Rect2( 0, 0, 19, 18 )
+108/is_autotile = false
+108/occluder_offset = Vector2( 9.5, 9 )
+108/navigation_offset = Vector2( 9.5, 9 )
+108/shapes = [  ]
+109/name = "pylon_NW"
+109/texture = ExtResource( 13 )
+109/tex_offset = Vector2( 0, 0 )
+109/modulate = Color( 1, 1, 1, 1 )
+109/region = Rect2( 0, 0, 19, 18 )
+109/is_autotile = false
+109/occluder_offset = Vector2( 9.5, 9 )
+109/navigation_offset = Vector2( 9.5, 9 )
+109/shapes = [  ]
+110/name = "pylon_SE"
+110/texture = ExtResource( 15 )
+110/tex_offset = Vector2( 0, 0 )
+110/modulate = Color( 1, 1, 1, 1 )
+110/region = Rect2( 0, 0, 19, 18 )
+110/is_autotile = false
+110/occluder_offset = Vector2( 9.5, 9 )
+110/navigation_offset = Vector2( 9.5, 9 )
+110/shapes = [  ]
+111/name = "pylon_SW"
+111/texture = ExtResource( 16 )
+111/tex_offset = Vector2( 0, 0 )
+111/modulate = Color( 1, 1, 1, 1 )
+111/region = Rect2( 0, 0, 19, 18 )
+111/is_autotile = false
+111/occluder_offset = Vector2( 9.5, 9 )
+111/navigation_offset = Vector2( 9.5, 9 )
+111/shapes = [  ]
+112/name = "radarEquipment_NE"
+112/texture = ExtResource( 17 )
+112/tex_offset = Vector2( 0, 0 )
+112/modulate = Color( 1, 1, 1, 1 )
+112/region = Rect2( 0, 0, 49, 74 )
+112/is_autotile = false
+112/occluder_offset = Vector2( 24.5, 37 )
+112/navigation_offset = Vector2( 24.5, 37 )
+112/shapes = [  ]
+113/name = "radarEquipment_NW"
+113/texture = ExtResource( 18 )
+113/tex_offset = Vector2( 0, 0 )
+113/modulate = Color( 1, 1, 1, 1 )
+113/region = Rect2( 0, 0, 67, 61 )
+113/is_autotile = false
+113/occluder_offset = Vector2( 33.5, 30.5 )
+113/navigation_offset = Vector2( 33.5, 30.5 )
+113/shapes = [  ]
+114/name = "radarEquipment_SE"
+114/texture = ExtResource( 19 )
+114/tex_offset = Vector2( 0, 0 )
+114/modulate = Color( 1, 1, 1, 1 )
+114/region = Rect2( 0, 0, 50, 59 )
+114/is_autotile = false
+114/occluder_offset = Vector2( 25, 29.5 )
+114/navigation_offset = Vector2( 25, 29.5 )
+114/shapes = [  ]
+115/name = "radarEquipment_SW"
+115/texture = ExtResource( 20 )
+115/tex_offset = Vector2( 0, 0 )
+115/modulate = Color( 1, 1, 1, 1 )
+115/region = Rect2( 0, 0, 68, 68 )
+115/is_autotile = false
+115/occluder_offset = Vector2( 34, 34 )
+115/navigation_offset = Vector2( 34, 34 )
+115/shapes = [  ]
+116/name = "rail_NE"
+116/texture = ExtResource( 21 )
+116/tex_offset = Vector2( 0, 0 )
+116/modulate = Color( 1, 1, 1, 1 )
+116/region = Rect2( 0, 0, 78, 65 )
+116/is_autotile = false
+116/occluder_offset = Vector2( 39, 32.5 )
+116/navigation_offset = Vector2( 39, 32.5 )
+116/shapes = [  ]
+117/name = "rail_NW"
+117/texture = ExtResource( 22 )
+117/tex_offset = Vector2( 0, 0 )
+117/modulate = Color( 1, 1, 1, 1 )
+117/region = Rect2( 0, 0, 78, 64 )
+117/is_autotile = false
+117/occluder_offset = Vector2( 39, 32 )
+117/navigation_offset = Vector2( 39, 32 )
+117/shapes = [  ]
+118/name = "rail_SE"
+118/texture = ExtResource( 23 )
+118/tex_offset = Vector2( 0, 0 )
+118/modulate = Color( 1, 1, 1, 1 )
+118/region = Rect2( 0, 0, 78, 62 )
+118/is_autotile = false
+118/occluder_offset = Vector2( 39, 31 )
+118/navigation_offset = Vector2( 39, 31 )
+118/shapes = [  ]
+119/name = "rail_SW"
+119/texture = ExtResource( 24 )
+119/tex_offset = Vector2( 0, 0 )
+119/modulate = Color( 1, 1, 1, 1 )
+119/region = Rect2( 0, 0, 78, 62 )
+119/is_autotile = false
+119/occluder_offset = Vector2( 39, 31 )
+119/navigation_offset = Vector2( 39, 31 )
+119/shapes = [  ]
+120/name = "ramp_NE"
+120/texture = ExtResource( 26 )
+120/tex_offset = Vector2( 0, 0 )
+120/modulate = Color( 1, 1, 1, 1 )
+120/region = Rect2( 0, 0, 97, 68 )
+120/is_autotile = false
+120/occluder_offset = Vector2( 48.5, 34 )
+120/navigation_offset = Vector2( 48.5, 34 )
+120/shapes = [  ]
+121/name = "ramp_NW"
+121/texture = ExtResource( 27 )
+121/tex_offset = Vector2( 0, 0 )
+121/modulate = Color( 1, 1, 1, 1 )
+121/region = Rect2( 0, 0, 97, 67 )
+121/is_autotile = false
+121/occluder_offset = Vector2( 48.5, 33.5 )
+121/navigation_offset = Vector2( 48.5, 33.5 )
+121/shapes = [  ]
+122/name = "ramp_SE"
+122/texture = ExtResource( 28 )
+122/tex_offset = Vector2( 0, 0 )
+122/modulate = Color( 1, 1, 1, 1 )
+122/region = Rect2( 0, 0, 97, 94 )
+122/is_autotile = false
+122/occluder_offset = Vector2( 48.5, 47 )
+122/navigation_offset = Vector2( 48.5, 47 )
+122/shapes = [  ]
+123/name = "ramp_SW"
+123/texture = ExtResource( 29 )
+123/tex_offset = Vector2( 0, 0 )
+123/modulate = Color( 1, 1, 1, 1 )
+123/region = Rect2( 0, 0, 97, 94 )
+123/is_autotile = false
+123/occluder_offset = Vector2( 48.5, 47 )
+123/navigation_offset = Vector2( 48.5, 47 )
+123/shapes = [  ]
+124/name = "roadBump_NE"
+124/texture = ExtResource( 30 )
+124/tex_offset = Vector2( 0, 0 )
+124/modulate = Color( 1, 1, 1, 1 )
+124/region = Rect2( 0, 0, 226, 160 )
+124/is_autotile = false
+124/occluder_offset = Vector2( 113, 80 )
+124/navigation_offset = Vector2( 113, 80 )
+124/shapes = [  ]
+125/name = "roadBump_NW"
+125/texture = ExtResource( 31 )
+125/tex_offset = Vector2( 0, 0 )
+125/modulate = Color( 1, 1, 1, 1 )
+125/region = Rect2( 0, 0, 226, 160 )
+125/is_autotile = false
+125/occluder_offset = Vector2( 113, 80 )
+125/navigation_offset = Vector2( 113, 80 )
+125/shapes = [  ]
+126/name = "roadBump_SE"
+126/texture = ExtResource( 32 )
+126/tex_offset = Vector2( 0, 0 )
+126/modulate = Color( 1, 1, 1, 1 )
+126/region = Rect2( 0, 0, 227, 161 )
+126/is_autotile = false
+126/occluder_offset = Vector2( 113.5, 80.5 )
+126/navigation_offset = Vector2( 113.5, 80.5 )
+126/shapes = [  ]
+127/name = "roadBump_SW"
+127/texture = ExtResource( 33 )
+127/tex_offset = Vector2( 0, 0 )
+127/modulate = Color( 1, 1, 1, 1 )
+127/region = Rect2( 0, 0, 227, 160 )
+127/is_autotile = false
+127/occluder_offset = Vector2( 113.5, 80 )
+127/navigation_offset = Vector2( 113.5, 80 )
+127/shapes = [  ]
+128/name = "roadCornerLargeBorderInner_NE"
+128/texture = ExtResource( 34 )
+128/tex_offset = Vector2( 0, 0 )
+128/modulate = Color( 1, 1, 1, 1 )
+128/region = Rect2( 0, 0, 47, 109 )
+128/is_autotile = false
+128/occluder_offset = Vector2( 23.5, 54.5 )
+128/navigation_offset = Vector2( 23.5, 54.5 )
+128/shapes = [  ]
+129/name = "roadCornerLargeBorderInner_NW"
+129/texture = ExtResource( 35 )
+129/tex_offset = Vector2( 0, 0 )
+129/modulate = Color( 1, 1, 1, 1 )
+129/region = Rect2( 0, 0, 151, 35 )
+129/is_autotile = false
+129/occluder_offset = Vector2( 75.5, 17.5 )
+129/navigation_offset = Vector2( 75.5, 17.5 )
+129/shapes = [  ]
+130/name = "roadCornerLargeBorderInner_SE"
+130/texture = ExtResource( 37 )
+130/tex_offset = Vector2( 0, 0 )
+130/modulate = Color( 1, 1, 1, 1 )
+130/region = Rect2( 0, 0, 48, 108 )
+130/is_autotile = false
+130/occluder_offset = Vector2( 24, 54 )
+130/navigation_offset = Vector2( 24, 54 )
+130/shapes = [  ]
+131/name = "roadCornerLargeBorderInner_SW"
+131/texture = ExtResource( 38 )
+131/tex_offset = Vector2( 0, 0 )
+131/modulate = Color( 1, 1, 1, 1 )
+131/region = Rect2( 0, 0, 152, 35 )
+131/is_autotile = false
+131/occluder_offset = Vector2( 76, 17.5 )
+131/navigation_offset = Vector2( 76, 17.5 )
+131/shapes = [  ]
+132/name = "roadCornerLargeBorder_NE"
+132/texture = ExtResource( 39 )
+132/tex_offset = Vector2( 0, 0 )
+132/modulate = Color( 1, 1, 1, 1 )
+132/region = Rect2( 0, 0, 85, 237 )
+132/is_autotile = false
+132/occluder_offset = Vector2( 42.5, 118.5 )
+132/navigation_offset = Vector2( 42.5, 118.5 )
+132/shapes = [  ]
+133/name = "roadCornerLargeBorder_NW"
+133/texture = ExtResource( 40 )
+133/tex_offset = Vector2( 0, 0 )
+133/modulate = Color( 1, 1, 1, 1 )
+133/region = Rect2( 0, 0, 334, 62 )
+133/is_autotile = false
+133/occluder_offset = Vector2( 167, 31 )
+133/navigation_offset = Vector2( 167, 31 )
+133/shapes = [  ]
+134/name = "roadCornerLargeBorder_SE"
+134/texture = ExtResource( 41 )
+134/tex_offset = Vector2( 0, 0 )
+134/modulate = Color( 1, 1, 1, 1 )
+134/region = Rect2( 0, 0, 85, 238 )
+134/is_autotile = false
+134/occluder_offset = Vector2( 42.5, 119 )
+134/navigation_offset = Vector2( 42.5, 119 )
+134/shapes = [  ]
+135/name = "roadCornerLargeBorder_SW"
+135/texture = ExtResource( 42 )
+135/tex_offset = Vector2( 0, 0 )
+135/modulate = Color( 1, 1, 1, 1 )
+135/region = Rect2( 0, 0, 334, 62 )
+135/is_autotile = false
+135/occluder_offset = Vector2( 167, 31 )
+135/navigation_offset = Vector2( 167, 31 )
+135/shapes = [  ]
+136/name = "roadCornerLargerBorderInner_NE"
+136/texture = ExtResource( 43 )
+136/tex_offset = Vector2( 0, 0 )
+136/modulate = Color( 1, 1, 1, 1 )
+136/region = Rect2( 0, 0, 79, 215 )
+136/is_autotile = false
+136/occluder_offset = Vector2( 39.5, 107.5 )
+136/navigation_offset = Vector2( 39.5, 107.5 )
+136/shapes = [  ]
+137/name = "roadCornerLargerBorderInner_NW"
+137/texture = ExtResource( 44 )
+137/tex_offset = Vector2( 0, 0 )
+137/modulate = Color( 1, 1, 1, 1 )
+137/region = Rect2( 0, 0, 302, 57 )
+137/is_autotile = false
+137/occluder_offset = Vector2( 151, 28.5 )
+137/navigation_offset = Vector2( 151, 28.5 )
+137/shapes = [  ]
+138/name = "roadCornerLargerBorderInner_SE"
+138/texture = ExtResource( 45 )
+138/tex_offset = Vector2( 0, 0 )
+138/modulate = Color( 1, 1, 1, 1 )
+138/region = Rect2( 0, 0, 79, 215 )
+138/is_autotile = false
+138/occluder_offset = Vector2( 39.5, 107.5 )
+138/navigation_offset = Vector2( 39.5, 107.5 )
+138/shapes = [  ]
+139/name = "roadCornerLargerBorderInner_SW"
+139/texture = ExtResource( 46 )
+139/tex_offset = Vector2( 0, 0 )
+139/modulate = Color( 1, 1, 1, 1 )
+139/region = Rect2( 0, 0, 303, 57 )
+139/is_autotile = false
+139/occluder_offset = Vector2( 151.5, 28.5 )
+139/navigation_offset = Vector2( 151.5, 28.5 )
+139/shapes = [  ]
+140/name = "roadCornerLargerBorder_NE"
+140/texture = ExtResource( 48 )
+140/tex_offset = Vector2( 0, 0 )
+140/modulate = Color( 1, 1, 1, 1 )
+140/region = Rect2( 0, 0, 117, 344 )
+140/is_autotile = false
+140/occluder_offset = Vector2( 58.5, 172 )
+140/navigation_offset = Vector2( 58.5, 172 )
+140/shapes = [  ]
+141/name = "roadCornerLargerBorder_NW"
+141/texture = ExtResource( 49 )
+141/tex_offset = Vector2( 0, 0 )
+141/modulate = Color( 1, 1, 1, 1 )
+141/region = Rect2( 0, 0, 484, 84 )
+141/is_autotile = false
+141/occluder_offset = Vector2( 242, 42 )
+141/navigation_offset = Vector2( 242, 42 )
+141/shapes = [  ]
+142/name = "roadCornerLargerBorder_SE"
+142/texture = ExtResource( 50 )
+142/tex_offset = Vector2( 0, 0 )
+142/modulate = Color( 1, 1, 1, 1 )
+142/region = Rect2( 0, 0, 116, 344 )
+142/is_autotile = false
+142/occluder_offset = Vector2( 58, 172 )
+142/navigation_offset = Vector2( 58, 172 )
+142/shapes = [  ]
+143/name = "roadCornerLargerBorder_SW"
+143/texture = ExtResource( 51 )
+143/tex_offset = Vector2( 0, 0 )
+143/modulate = Color( 1, 1, 1, 1 )
+143/region = Rect2( 0, 0, 485, 84 )
+143/is_autotile = false
+143/occluder_offset = Vector2( 242.5, 42 )
+143/navigation_offset = Vector2( 242.5, 42 )
+143/shapes = [  ]
+144/name = "roadCornerLarger_NE"
+144/texture = ExtResource( 52 )
+144/tex_offset = Vector2( 0, 0 )
+144/modulate = Color( 1, 1, 1, 1 )
+144/region = Rect2( 0, 0, 169, 321 )
+144/is_autotile = false
+144/occluder_offset = Vector2( 84.5, 160.5 )
+144/navigation_offset = Vector2( 84.5, 160.5 )
+144/shapes = [  ]
+145/name = "roadCornerLarger_NW"
+145/texture = ExtResource( 53 )
+145/tex_offset = Vector2( 0, 0 )
+145/modulate = Color( 1, 1, 1, 1 )
+145/region = Rect2( 0, 0, 452, 120 )
+145/is_autotile = false
+145/occluder_offset = Vector2( 226, 60 )
+145/navigation_offset = Vector2( 226, 60 )
+145/shapes = [  ]
+146/name = "roadCornerLarger_SE"
+146/texture = ExtResource( 54 )
+146/tex_offset = Vector2( 0, 0 )
+146/modulate = Color( 1, 1, 1, 1 )
+146/region = Rect2( 0, 0, 170, 321 )
+146/is_autotile = false
+146/occluder_offset = Vector2( 85, 160.5 )
+146/navigation_offset = Vector2( 85, 160.5 )
+146/shapes = [  ]
+147/name = "roadCornerLarger_SW"
+147/texture = ExtResource( 55 )
+147/tex_offset = Vector2( 0, 0 )
+147/modulate = Color( 1, 1, 1, 1 )
+147/region = Rect2( 0, 0, 452, 120 )
+147/is_autotile = false
+147/occluder_offset = Vector2( 226, 60 )
+147/navigation_offset = Vector2( 226, 60 )
+147/shapes = [  ]
+148/name = "roadCornerLarge_NE"
+148/texture = ExtResource( 56 )
+148/tex_offset = Vector2( 0, 0 )
+148/modulate = Color( 1, 1, 1, 1 )
+148/region = Rect2( 0, 0, 138, 214 )
+148/is_autotile = false
+148/occluder_offset = Vector2( 69, 107 )
+148/navigation_offset = Vector2( 69, 107 )
+148/shapes = [  ]
+149/name = "roadCornerLarge_NW"
+149/texture = ExtResource( 57 )
+149/tex_offset = Vector2( 0, 0 )
+149/modulate = Color( 1, 1, 1, 1 )
+149/region = Rect2( 0, 0, 301, 98 )
+149/is_autotile = false
+149/occluder_offset = Vector2( 150.5, 49 )
+149/navigation_offset = Vector2( 150.5, 49 )
+149/shapes = [  ]
+150/name = "roadCornerLarge_SE"
+150/texture = ExtResource( 59 )
+150/tex_offset = Vector2( 0, 0 )
+150/modulate = Color( 1, 1, 1, 1 )
+150/region = Rect2( 0, 0, 138, 214 )
+150/is_autotile = false
+150/occluder_offset = Vector2( 69, 107 )
+150/navigation_offset = Vector2( 69, 107 )
+150/shapes = [  ]
+151/name = "roadCornerLarge_SW"
+151/texture = ExtResource( 60 )
+151/tex_offset = Vector2( 0, 0 )
+151/modulate = Color( 1, 1, 1, 1 )
+151/region = Rect2( 0, 0, 302, 98 )
+151/is_autotile = false
+151/occluder_offset = Vector2( 151, 49 )
+151/navigation_offset = Vector2( 151, 49 )
+151/shapes = [  ]
+152/name = "roadCornerSmallBorder_NE"
+152/texture = ExtResource( 61 )
+152/tex_offset = Vector2( 0, 0 )
+152/modulate = Color( 1, 1, 1, 1 )
+152/region = Rect2( 0, 0, 54, 131 )
+152/is_autotile = false
+152/occluder_offset = Vector2( 27, 65.5 )
+152/navigation_offset = Vector2( 27, 65.5 )
+152/shapes = [  ]
+153/name = "roadCornerSmallBorder_NW"
+153/texture = ExtResource( 62 )
+153/tex_offset = Vector2( 0, 0 )
+153/modulate = Color( 1, 1, 1, 1 )
+153/region = Rect2( 0, 0, 183, 40 )
+153/is_autotile = false
+153/occluder_offset = Vector2( 91.5, 20 )
+153/navigation_offset = Vector2( 91.5, 20 )
+153/shapes = [  ]
+154/name = "roadCornerSmallBorder_SE"
+154/texture = ExtResource( 63 )
+154/tex_offset = Vector2( 0, 0 )
+154/modulate = Color( 1, 1, 1, 1 )
+154/region = Rect2( 0, 0, 54, 131 )
+154/is_autotile = false
+154/occluder_offset = Vector2( 27, 65.5 )
+154/navigation_offset = Vector2( 27, 65.5 )
+154/shapes = [  ]
+155/name = "roadCornerSmallBorder_SW"
+155/texture = ExtResource( 64 )
+155/tex_offset = Vector2( 0, 0 )
+155/modulate = Color( 1, 1, 1, 1 )
+155/region = Rect2( 0, 0, 183, 40 )
+155/is_autotile = false
+155/occluder_offset = Vector2( 91.5, 20 )
+155/navigation_offset = Vector2( 91.5, 20 )
+155/shapes = [  ]
+156/name = "roadCornerSmallSquare_NE"
+156/texture = ExtResource( 65 )
+156/tex_offset = Vector2( 0, 0 )
+156/modulate = Color( 1, 1, 1, 1 )
+156/region = Rect2( 0, 0, 144, 107 )
+156/is_autotile = false
+156/occluder_offset = Vector2( 72, 53.5 )
+156/navigation_offset = Vector2( 72, 53.5 )
+156/shapes = [  ]
+157/name = "roadCornerSmallSquare_NW"
+157/texture = ExtResource( 66 )
+157/tex_offset = Vector2( 0, 0 )
+157/modulate = Color( 1, 1, 1, 1 )
+157/region = Rect2( 0, 0, 151, 102 )
+157/is_autotile = false
+157/occluder_offset = Vector2( 75.5, 51 )
+157/navigation_offset = Vector2( 75.5, 51 )
+157/shapes = [  ]
+158/name = "roadCornerSmallSquare_SE"
+158/texture = ExtResource( 67 )
+158/tex_offset = Vector2( 0, 0 )
+158/modulate = Color( 1, 1, 1, 1 )
+158/region = Rect2( 0, 0, 145, 107 )
+158/is_autotile = false
+158/occluder_offset = Vector2( 72.5, 53.5 )
+158/navigation_offset = Vector2( 72.5, 53.5 )
+158/shapes = [  ]
+159/name = "roadCornerSmallSquare_SW"
+159/texture = ExtResource( 68 )
+159/tex_offset = Vector2( 0, 0 )
+159/modulate = Color( 1, 1, 1, 1 )
+159/region = Rect2( 0, 0, 151, 102 )
+159/is_autotile = false
+159/occluder_offset = Vector2( 75.5, 51 )
+159/navigation_offset = Vector2( 75.5, 51 )
+159/shapes = [  ]
+160/name = "roadCornerSmall_NE"
+160/texture = ExtResource( 70 )
+160/tex_offset = Vector2( 0, 0 )
+160/modulate = Color( 1, 1, 1, 1 )
+160/region = Rect2( 0, 0, 107, 107 )
+160/is_autotile = false
+160/occluder_offset = Vector2( 53.5, 53.5 )
+160/navigation_offset = Vector2( 53.5, 53.5 )
+160/shapes = [  ]
+161/name = "roadCornerSmall_NW"
+161/texture = ExtResource( 71 )
+161/tex_offset = Vector2( 0, 0 )
+161/modulate = Color( 1, 1, 1, 1 )
+161/region = Rect2( 0, 0, 151, 76 )
+161/is_autotile = false
+161/occluder_offset = Vector2( 75.5, 38 )
+161/navigation_offset = Vector2( 75.5, 38 )
+161/shapes = [  ]
+162/name = "roadCornerSmall_SE"
+162/texture = ExtResource( 72 )
+162/tex_offset = Vector2( 45, 0 )
+162/modulate = Color( 1, 1, 1, 1 )
+162/region = Rect2( 0, 0, 107, 107 )
+162/is_autotile = false
+162/occluder_offset = Vector2( 53.5, 53.5 )
+162/navigation_offset = Vector2( 53.5, 53.5 )
+162/shapes = [  ]
+163/name = "roadCornerSmall_SW"
+163/texture = ExtResource( 73 )
+163/tex_offset = Vector2( 0, 31 )
+163/modulate = Color( 1, 1, 1, 1 )
+163/region = Rect2( 0, 0, 151, 76 )
+163/is_autotile = false
+163/occluder_offset = Vector2( 75.5, 38 )
+163/navigation_offset = Vector2( 75.5, 38 )
+163/shapes = [  ]
+164/name = "roadCurved_NE"
+164/texture = ExtResource( 74 )
+164/tex_offset = Vector2( 0, 0 )
+164/modulate = Color( 1, 1, 1, 1 )
+164/region = Rect2( 0, 0, 264, 134 )
+164/is_autotile = false
+164/occluder_offset = Vector2( 132, 67 )
+164/navigation_offset = Vector2( 132, 67 )
+164/shapes = [  ]
+165/name = "roadCurved_NW"
+165/texture = ExtResource( 75 )
+165/tex_offset = Vector2( 0, 0 )
+165/modulate = Color( 1, 1, 1, 1 )
+165/region = Rect2( 0, 0, 188, 187 )
+165/is_autotile = false
+165/occluder_offset = Vector2( 94, 93.5 )
+165/navigation_offset = Vector2( 94, 93.5 )
+165/shapes = [  ]
+166/name = "roadCurved_SE"
+166/texture = ExtResource( 76 )
+166/tex_offset = Vector2( 0, 0 )
+166/modulate = Color( 1, 1, 1, 1 )
+166/region = Rect2( 0, 0, 264, 134 )
+166/is_autotile = false
+166/occluder_offset = Vector2( 132, 67 )
+166/navigation_offset = Vector2( 132, 67 )
+166/shapes = [  ]
+167/name = "roadCurved_SW"
+167/texture = ExtResource( 77 )
+167/tex_offset = Vector2( 0, 0 )
+167/modulate = Color( 1, 1, 1, 1 )
+167/region = Rect2( 0, 0, 189, 187 )
+167/is_autotile = false
+167/occluder_offset = Vector2( 94.5, 93.5 )
+167/navigation_offset = Vector2( 94.5, 93.5 )
+167/shapes = [  ]
+168/name = "roadEnd_NE"
+168/texture = ExtResource( 78 )
+168/tex_offset = Vector2( 0, 0 )
+168/modulate = Color( 1, 1, 1, 1 )
+168/region = Rect2( 0, 0, 166, 118 )
+168/is_autotile = false
+168/occluder_offset = Vector2( 83, 59 )
+168/navigation_offset = Vector2( 83, 59 )
+168/shapes = [  ]
+169/name = "roadEnd_NW"
+169/texture = ExtResource( 79 )
+169/tex_offset = Vector2( 0, 0 )
+169/modulate = Color( 1, 1, 1, 1 )
+169/region = Rect2( 0, 0, 166, 118 )
+169/is_autotile = false
+169/occluder_offset = Vector2( 83, 59 )
+169/navigation_offset = Vector2( 83, 59 )
+169/shapes = [  ]
+170/name = "roadEnd_SE"
+170/texture = ExtResource( 81 )
+170/tex_offset = Vector2( 0, 0 )
+170/modulate = Color( 1, 1, 1, 1 )
+170/region = Rect2( 0, 0, 167, 118 )
+170/is_autotile = false
+170/occluder_offset = Vector2( 83.5, 59 )
+170/navigation_offset = Vector2( 83.5, 59 )
+170/shapes = [  ]
+171/name = "roadEnd_SW"
+171/texture = ExtResource( 82 )
+171/tex_offset = Vector2( 0, 0 )
+171/modulate = Color( 1, 1, 1, 1 )
+171/region = Rect2( 0, 0, 167, 118 )
+171/is_autotile = false
+171/occluder_offset = Vector2( 83.5, 59 )
+171/navigation_offset = Vector2( 83.5, 59 )
+171/shapes = [  ]
+172/name = "roadHalfCircleBorder_NE"
+172/texture = ExtResource( 83 )
+172/tex_offset = Vector2( 0, 0 )
+172/modulate = Color( 1, 1, 1, 1 )
+172/region = Rect2( 0, 0, 312, 222 )
+172/is_autotile = false
+172/occluder_offset = Vector2( 156, 111 )
+172/navigation_offset = Vector2( 156, 111 )
+172/shapes = [  ]
+173/name = "roadHalfCircleBorder_NW"
+173/texture = ExtResource( 84 )
+173/tex_offset = Vector2( 0, 0 )
+173/modulate = Color( 1, 1, 1, 1 )
+173/region = Rect2( 0, 0, 312, 222 )
+173/is_autotile = false
+173/occluder_offset = Vector2( 156, 111 )
+173/navigation_offset = Vector2( 156, 111 )
+173/shapes = [  ]
+174/name = "roadHalfCircleBorder_SE"
+174/texture = ExtResource( 85 )
+174/tex_offset = Vector2( 0, 0 )
+174/modulate = Color( 1, 1, 1, 1 )
+174/region = Rect2( 0, 0, 312, 222 )
+174/is_autotile = false
+174/occluder_offset = Vector2( 156, 111 )
+174/navigation_offset = Vector2( 156, 111 )
+174/shapes = [  ]
+175/name = "roadHalfCircleBorder_SW"
+175/texture = ExtResource( 86 )
+175/tex_offset = Vector2( 0, 0 )
+175/modulate = Color( 1, 1, 1, 1 )
+175/region = Rect2( 0, 0, 312, 222 )
+175/is_autotile = false
+175/occluder_offset = Vector2( 156, 111 )
+175/navigation_offset = Vector2( 156, 111 )
+175/shapes = [  ]
+176/name = "roadHalfCircle_NE"
+176/texture = ExtResource( 87 )
+176/tex_offset = Vector2( 0, 0 )
+176/modulate = Color( 1, 1, 1, 1 )
+176/region = Rect2( 0, 0, 273, 194 )
+176/is_autotile = false
+176/occluder_offset = Vector2( 136.5, 97 )
+176/navigation_offset = Vector2( 136.5, 97 )
+176/shapes = [  ]
+177/name = "roadHalfCircle_NW"
+177/texture = ExtResource( 88 )
+177/tex_offset = Vector2( 0, 0 )
+177/modulate = Color( 1, 1, 1, 1 )
+177/region = Rect2( 0, 0, 273, 194 )
+177/is_autotile = false
+177/occluder_offset = Vector2( 136.5, 97 )
+177/navigation_offset = Vector2( 136.5, 97 )
+177/shapes = [  ]
+178/name = "roadHalfCircle_SE"
+178/texture = ExtResource( 89 )
+178/tex_offset = Vector2( 0, 0 )
+178/modulate = Color( 1, 1, 1, 1 )
+178/region = Rect2( 0, 0, 273, 193 )
+178/is_autotile = false
+178/occluder_offset = Vector2( 136.5, 96.5 )
+178/navigation_offset = Vector2( 136.5, 96.5 )
+178/shapes = [  ]
+179/name = "roadHalfCircle_SW"
+179/texture = ExtResource( 90 )
+179/tex_offset = Vector2( 0, 0 )
+179/modulate = Color( 1, 1, 1, 1 )
+179/region = Rect2( 0, 0, 274, 193 )
+179/is_autotile = false
+179/occluder_offset = Vector2( 137, 96.5 )
+179/navigation_offset = Vector2( 137, 96.5 )
+179/shapes = [  ]
+180/name = "roadPitEntry_NE"
+180/texture = ExtResource( 92 )
+180/tex_offset = Vector2( 0, 0 )
+180/modulate = Color( 1, 1, 1, 1 )
+180/region = Rect2( 0, 0, 226, 214 )
+180/is_autotile = false
+180/occluder_offset = Vector2( 113, 107 )
+180/navigation_offset = Vector2( 113, 107 )
+180/shapes = [  ]
+181/name = "roadPitEntry_NW"
+181/texture = ExtResource( 93 )
+181/tex_offset = Vector2( 0, 0 )
+181/modulate = Color( 1, 1, 1, 1 )
+181/region = Rect2( 0, 0, 301, 160 )
+181/is_autotile = false
+181/occluder_offset = Vector2( 150.5, 80 )
+181/navigation_offset = Vector2( 150.5, 80 )
+181/shapes = [  ]
+182/name = "roadPitEntry_SE"
+182/texture = ExtResource( 94 )
+182/tex_offset = Vector2( 0, 0 )
+182/modulate = Color( 1, 1, 1, 1 )
+182/region = Rect2( 0, 0, 227, 214 )
+182/is_autotile = false
+182/occluder_offset = Vector2( 113.5, 107 )
+182/navigation_offset = Vector2( 113.5, 107 )
+182/shapes = [  ]
+183/name = "roadPitEntry_SW"
+183/texture = ExtResource( 95 )
+183/tex_offset = Vector2( 0, 0 )
+183/modulate = Color( 1, 1, 1, 1 )
+183/region = Rect2( 0, 0, 302, 160 )
+183/is_autotile = false
+183/occluder_offset = Vector2( 151, 80 )
+183/navigation_offset = Vector2( 151, 80 )
+183/shapes = [  ]
+184/name = "roadPitGarage_NE"
+184/texture = ExtResource( 96 )
+184/tex_offset = Vector2( 0, 0 )
+184/modulate = Color( 1, 1, 1, 1 )
+184/region = Rect2( 0, 0, 151, 107 )
+184/is_autotile = false
+184/occluder_offset = Vector2( 75.5, 53.5 )
+184/navigation_offset = Vector2( 75.5, 53.5 )
+184/shapes = [  ]
+185/name = "roadPitGarage_NW"
+185/texture = ExtResource( 97 )
+185/tex_offset = Vector2( 0, 0 )
+185/modulate = Color( 1, 1, 1, 1 )
+185/region = Rect2( 0, 0, 151, 109 )
+185/is_autotile = false
+185/occluder_offset = Vector2( 75.5, 54.5 )
+185/navigation_offset = Vector2( 75.5, 54.5 )
+185/shapes = [  ]
+186/name = "roadPitGarage_SE"
+186/texture = ExtResource( 98 )
+186/tex_offset = Vector2( 0, 0 )
+186/modulate = Color( 1, 1, 1, 1 )
+186/region = Rect2( 0, 0, 151, 109 )
+186/is_autotile = false
+186/occluder_offset = Vector2( 75.5, 54.5 )
+186/navigation_offset = Vector2( 75.5, 54.5 )
+186/shapes = [  ]
+187/name = "roadPitGarage_SW"
+187/texture = ExtResource( 99 )
+187/tex_offset = Vector2( 0, 0 )
+187/modulate = Color( 1, 1, 1, 1 )
+187/region = Rect2( 0, 0, 151, 107 )
+187/is_autotile = false
+187/occluder_offset = Vector2( 75.5, 53.5 )
+187/navigation_offset = Vector2( 75.5, 53.5 )
+187/shapes = [  ]
+188/name = "roadPitStraightLong_NE"
+188/texture = ExtResource( 100 )
+188/tex_offset = Vector2( 0, 0 )
+188/modulate = Color( 1, 1, 1, 1 )
+188/region = Rect2( 0, 0, 226, 160 )
+188/is_autotile = false
+188/occluder_offset = Vector2( 113, 80 )
+188/navigation_offset = Vector2( 113, 80 )
+188/shapes = [  ]
+189/name = "roadPitStraightLong_NW"
+189/texture = ExtResource( 101 )
+189/tex_offset = Vector2( 0, 0 )
+189/modulate = Color( 1, 1, 1, 1 )
+189/region = Rect2( 0, 0, 226, 162 )
+189/is_autotile = false
+189/occluder_offset = Vector2( 113, 81 )
+189/navigation_offset = Vector2( 113, 81 )
+189/shapes = [  ]
+190/name = "roadPitStraightLong_SE"
+190/texture = ExtResource( 103 )
+190/tex_offset = Vector2( 0, 0 )
+190/modulate = Color( 1, 1, 1, 1 )
+190/region = Rect2( 0, 0, 226, 162 )
+190/is_autotile = false
+190/occluder_offset = Vector2( 113, 81 )
+190/navigation_offset = Vector2( 113, 81 )
+190/shapes = [  ]
+191/name = "roadPitStraightLong_SW"
+191/texture = ExtResource( 104 )
+191/tex_offset = Vector2( 0, 0 )
+191/modulate = Color( 1, 1, 1, 1 )
+191/region = Rect2( 0, 0, 227, 160 )
+191/is_autotile = false
+191/occluder_offset = Vector2( 113.5, 80 )
+191/navigation_offset = Vector2( 113.5, 80 )
+191/shapes = [  ]
+192/name = "roadPitStraight_NE"
+192/texture = ExtResource( 105 )
+192/tex_offset = Vector2( 0, 0 )
+192/modulate = Color( 1, 1, 1, 1 )
+192/region = Rect2( 0, 0, 151, 107 )
+192/is_autotile = false
+192/occluder_offset = Vector2( 75.5, 53.5 )
+192/navigation_offset = Vector2( 75.5, 53.5 )
+192/shapes = [  ]
+193/name = "roadPitStraight_NW"
+193/texture = ExtResource( 106 )
+193/tex_offset = Vector2( 0, 0 )
+193/modulate = Color( 1, 1, 1, 1 )
+193/region = Rect2( 0, 0, 151, 109 )
+193/is_autotile = false
+193/occluder_offset = Vector2( 75.5, 54.5 )
+193/navigation_offset = Vector2( 75.5, 54.5 )
+193/shapes = [  ]
+194/name = "roadPitStraight_SE"
+194/texture = ExtResource( 107 )
+194/tex_offset = Vector2( 0, 0 )
+194/modulate = Color( 1, 1, 1, 1 )
+194/region = Rect2( 0, 0, 150, 109 )
+194/is_autotile = false
+194/occluder_offset = Vector2( 75, 54.5 )
+194/navigation_offset = Vector2( 75, 54.5 )
+194/shapes = [  ]
+195/name = "roadPitStraight_SW"
+195/texture = ExtResource( 108 )
+195/tex_offset = Vector2( 0, 0 )
+195/modulate = Color( 1, 1, 1, 1 )
+195/region = Rect2( 0, 0, 151, 107 )
+195/is_autotile = false
+195/occluder_offset = Vector2( 75.5, 53.5 )
+195/navigation_offset = Vector2( 75.5, 53.5 )
+195/shapes = [  ]
+196/name = "roadRampLongCurvedWall_NE"
+196/texture = ExtResource( 109 )
+196/tex_offset = Vector2( 0, 0 )
+196/modulate = Color( 1, 1, 1, 1 )
+196/region = Rect2( 0, 0, 226, 160 )
+196/is_autotile = false
+196/occluder_offset = Vector2( 113, 80 )
+196/navigation_offset = Vector2( 113, 80 )
+196/shapes = [  ]
+197/name = "roadRampLongCurvedWall_NW"
+197/texture = ExtResource( 110 )
+197/tex_offset = Vector2( 0, 0 )
+197/modulate = Color( 1, 1, 1, 1 )
+197/region = Rect2( 0, 0, 226, 160 )
+197/is_autotile = false
+197/occluder_offset = Vector2( 113, 80 )
+197/navigation_offset = Vector2( 113, 80 )
+197/shapes = [  ]
+198/name = "roadRampLongCurvedWall_SE"
+198/texture = ExtResource( 111 )
+198/tex_offset = Vector2( 0, 0 )
+198/modulate = Color( 1, 1, 1, 1 )
+198/region = Rect2( 0, 0, 227, 198 )
+198/is_autotile = false
+198/occluder_offset = Vector2( 113.5, 99 )
+198/navigation_offset = Vector2( 113.5, 99 )
+198/shapes = [  ]
+199/name = "roadRampLongCurvedWall_SW"
+199/texture = ExtResource( 112 )
+199/tex_offset = Vector2( 0, 0 )
+199/modulate = Color( 1, 1, 1, 1 )
+199/region = Rect2( 0, 0, 227, 198 )
+199/is_autotile = false
+199/occluder_offset = Vector2( 113.5, 99 )
+199/navigation_offset = Vector2( 113.5, 99 )
+199/shapes = [  ]
+200/name = "roadRampLongCurved_NE"
+200/texture = ExtResource( 115 )
+200/tex_offset = Vector2( 0, 0 )
+200/modulate = Color( 1, 1, 1, 1 )
+200/region = Rect2( 0, 0, 226, 123 )
+200/is_autotile = false
+200/occluder_offset = Vector2( 113, 61.5 )
+200/navigation_offset = Vector2( 113, 61.5 )
+200/shapes = [  ]
+201/name = "roadRampLongCurved_NW"
+201/texture = ExtResource( 116 )
+201/tex_offset = Vector2( 0, 0 )
+201/modulate = Color( 1, 1, 1, 1 )
+201/region = Rect2( 0, 0, 226, 122 )
+201/is_autotile = false
+201/occluder_offset = Vector2( 113, 61 )
+201/navigation_offset = Vector2( 113, 61 )
+201/shapes = [  ]
+202/name = "roadRampLongCurved_SE"
+202/texture = ExtResource( 117 )
+202/tex_offset = Vector2( 0, 0 )
+202/modulate = Color( 1, 1, 1, 1 )
+202/region = Rect2( 0, 0, 227, 198 )
+202/is_autotile = false
+202/occluder_offset = Vector2( 113.5, 99 )
+202/navigation_offset = Vector2( 113.5, 99 )
+202/shapes = [  ]
+203/name = "roadRampLongCurved_SW"
+203/texture = ExtResource( 118 )
+203/tex_offset = Vector2( 0, 0 )
+203/modulate = Color( 1, 1, 1, 1 )
+203/region = Rect2( 0, 0, 226, 198 )
+203/is_autotile = false
+203/occluder_offset = Vector2( 113, 99 )
+203/navigation_offset = Vector2( 113, 99 )
+203/shapes = [  ]
+204/name = "roadRampLongWall_NE"
+204/texture = ExtResource( 119 )
+204/tex_offset = Vector2( 0, 0 )
+204/modulate = Color( 1, 1, 1, 1 )
+204/region = Rect2( 0, 0, 226, 160 )
+204/is_autotile = false
+204/occluder_offset = Vector2( 113, 80 )
+204/navigation_offset = Vector2( 113, 80 )
+204/shapes = [  ]
+205/name = "roadRampLongWall_NW"
+205/texture = ExtResource( 120 )
+205/tex_offset = Vector2( 0, 0 )
+205/modulate = Color( 1, 1, 1, 1 )
+205/region = Rect2( 0, 0, 226, 160 )
+205/is_autotile = false
+205/occluder_offset = Vector2( 113, 80 )
+205/navigation_offset = Vector2( 113, 80 )
+205/shapes = [  ]
+206/name = "roadRampLongWall_SE"
+206/texture = ExtResource( 121 )
+206/tex_offset = Vector2( 0, 0 )
+206/modulate = Color( 1, 1, 1, 1 )
+206/region = Rect2( 0, 0, 227, 198 )
+206/is_autotile = false
+206/occluder_offset = Vector2( 113.5, 99 )
+206/navigation_offset = Vector2( 113.5, 99 )
+206/shapes = [  ]
+207/name = "roadRampLongWall_SW"
+207/texture = ExtResource( 122 )
+207/tex_offset = Vector2( 0, 0 )
+207/modulate = Color( 1, 1, 1, 1 )
+207/region = Rect2( 0, 0, 227, 198 )
+207/is_autotile = false
+207/occluder_offset = Vector2( 113.5, 99 )
+207/navigation_offset = Vector2( 113.5, 99 )
+207/shapes = [  ]
+208/name = "roadRampLong_NE"
+208/texture = ExtResource( 123 )
+208/tex_offset = Vector2( 0, 0 )
+208/modulate = Color( 1, 1, 1, 1 )
+208/region = Rect2( 0, 0, 226, 123 )
+208/is_autotile = false
+208/occluder_offset = Vector2( 113, 61.5 )
+208/navigation_offset = Vector2( 113, 61.5 )
+208/shapes = [  ]
+209/name = "roadRampLong_NW"
+209/texture = ExtResource( 124 )
+209/tex_offset = Vector2( 0, 0 )
+209/modulate = Color( 1, 1, 1, 1 )
+209/region = Rect2( 0, 0, 226, 122 )
+209/is_autotile = false
+209/occluder_offset = Vector2( 113, 61 )
+209/navigation_offset = Vector2( 113, 61 )
+209/shapes = [  ]
+210/name = "roadRampLong_SE"
+210/texture = ExtResource( 126 )
+210/tex_offset = Vector2( 0, 0 )
+210/modulate = Color( 1, 1, 1, 1 )
+210/region = Rect2( 0, 0, 227, 197 )
+210/is_autotile = false
+210/occluder_offset = Vector2( 113.5, 98.5 )
+210/navigation_offset = Vector2( 113.5, 98.5 )
+210/shapes = [  ]
+211/name = "roadRampLong_SW"
+211/texture = ExtResource( 127 )
+211/tex_offset = Vector2( 0, 0 )
+211/modulate = Color( 1, 1, 1, 1 )
+211/region = Rect2( 0, 0, 226, 198 )
+211/is_autotile = false
+211/occluder_offset = Vector2( 113, 99 )
+211/navigation_offset = Vector2( 113, 99 )
+211/shapes = [  ]
+212/name = "roadRampWall_NE"
+212/texture = ExtResource( 128 )
+212/tex_offset = Vector2( 0, 0 )
+212/modulate = Color( 1, 1, 1, 1 )
+212/region = Rect2( 0, 0, 151, 107 )
+212/is_autotile = false
+212/occluder_offset = Vector2( 75.5, 53.5 )
+212/navigation_offset = Vector2( 75.5, 53.5 )
+212/shapes = [  ]
+213/name = "roadRampWall_NW"
+213/texture = ExtResource( 129 )
+213/tex_offset = Vector2( 0, 0 )
+213/modulate = Color( 1, 1, 1, 1 )
+213/region = Rect2( 0, 0, 151, 107 )
+213/is_autotile = false
+213/occluder_offset = Vector2( 75.5, 53.5 )
+213/navigation_offset = Vector2( 75.5, 53.5 )
+213/shapes = [  ]
+214/name = "roadRampWall_SE"
+214/texture = ExtResource( 130 )
+214/tex_offset = Vector2( 0, 0 )
+214/modulate = Color( 1, 1, 1, 1 )
+214/region = Rect2( 0, 0, 151, 126 )
+214/is_autotile = false
+214/occluder_offset = Vector2( 75.5, 63 )
+214/navigation_offset = Vector2( 75.5, 63 )
+214/shapes = [  ]
+215/name = "roadRampWall_SW"
+215/texture = ExtResource( 131 )
+215/tex_offset = Vector2( 0, 0 )
+215/modulate = Color( 1, 1, 1, 1 )
+215/region = Rect2( 0, 0, 151, 126 )
+215/is_autotile = false
+215/occluder_offset = Vector2( 75.5, 63 )
+215/navigation_offset = Vector2( 75.5, 63 )
+215/shapes = [  ]
+216/name = "roadRamp_NE"
+216/texture = ExtResource( 132 )
+216/tex_offset = Vector2( 0, 0 )
+216/modulate = Color( 1, 1, 1, 1 )
+216/region = Rect2( 0, 0, 151, 88 )
+216/is_autotile = false
+216/occluder_offset = Vector2( 75.5, 44 )
+216/navigation_offset = Vector2( 75.5, 44 )
+216/shapes = [  ]
+217/name = "roadRamp_NW"
+217/texture = ExtResource( 133 )
+217/tex_offset = Vector2( 0, 0 )
+217/modulate = Color( 1, 1, 1, 1 )
+217/region = Rect2( 0, 0, 150, 88 )
+217/is_autotile = false
+217/occluder_offset = Vector2( 75, 44 )
+217/navigation_offset = Vector2( 75, 44 )
+217/shapes = [  ]
+218/name = "roadRamp_SE"
+218/texture = ExtResource( 134 )
+218/tex_offset = Vector2( 0, 0 )
+218/modulate = Color( 1, 1, 1, 1 )
+218/region = Rect2( 0, 0, 151, 125 )
+218/is_autotile = false
+218/occluder_offset = Vector2( 75.5, 62.5 )
+218/navigation_offset = Vector2( 75.5, 62.5 )
+218/shapes = [  ]
+219/name = "roadRamp_SW"
+219/texture = ExtResource( 135 )
+219/tex_offset = Vector2( 0, 0 )
+219/modulate = Color( 1, 1, 1, 1 )
+219/region = Rect2( 0, 0, 151, 126 )
+219/is_autotile = false
+219/occluder_offset = Vector2( 75.5, 63 )
+219/navigation_offset = Vector2( 75.5, 63 )
+219/shapes = [  ]
+220/name = "roadSplit_NE"
+220/texture = ExtResource( 137 )
+220/tex_offset = Vector2( 0, 0 )
+220/modulate = Color( 1, 1, 1, 1 )
+220/region = Rect2( 0, 0, 302, 214 )
+220/is_autotile = false
+220/occluder_offset = Vector2( 151, 107 )
+220/navigation_offset = Vector2( 151, 107 )
+220/shapes = [  ]
+221/name = "roadSplit_NW"
+221/texture = ExtResource( 138 )
+221/tex_offset = Vector2( 0, 0 )
+221/modulate = Color( 1, 1, 1, 1 )
+221/region = Rect2( 0, 0, 301, 214 )
+221/is_autotile = false
+221/occluder_offset = Vector2( 150.5, 107 )
+221/navigation_offset = Vector2( 150.5, 107 )
+221/shapes = [  ]
+222/name = "roadSplit_SE"
+222/texture = ExtResource( 139 )
+222/tex_offset = Vector2( 0, 0 )
+222/modulate = Color( 1, 1, 1, 1 )
+222/region = Rect2( 0, 0, 302, 214 )
+222/is_autotile = false
+222/occluder_offset = Vector2( 151, 107 )
+222/navigation_offset = Vector2( 151, 107 )
+222/shapes = [  ]
+223/name = "roadSplit_SW"
+223/texture = ExtResource( 140 )
+223/tex_offset = Vector2( 0, 0 )
+223/modulate = Color( 1, 1, 1, 1 )
+223/region = Rect2( 0, 0, 302, 214 )
+223/is_autotile = false
+223/occluder_offset = Vector2( 151, 107 )
+223/navigation_offset = Vector2( 151, 107 )
+223/shapes = [  ]
+224/name = "roadStartPositions_NE"
+224/texture = ExtResource( 141 )
+224/tex_offset = Vector2( 0, 0 )
+224/modulate = Color( 1, 1, 1, 1 )
+224/region = Rect2( 0, 0, 226, 160 )
+224/is_autotile = false
+224/occluder_offset = Vector2( 113, 80 )
+224/navigation_offset = Vector2( 113, 80 )
+224/shapes = [  ]
+225/name = "roadStartPositions_NW"
+225/texture = ExtResource( 142 )
+225/tex_offset = Vector2( 0, 0 )
+225/modulate = Color( 1, 1, 1, 1 )
+225/region = Rect2( 0, 0, 226, 160 )
+225/is_autotile = false
+225/occluder_offset = Vector2( 113, 80 )
+225/navigation_offset = Vector2( 113, 80 )
+225/shapes = [  ]
+226/name = "roadStartPositions_SE"
+226/texture = ExtResource( 143 )
+226/tex_offset = Vector2( 0, 0 )
+226/modulate = Color( 1, 1, 1, 1 )
+226/region = Rect2( 0, 0, 227, 161 )
+226/is_autotile = false
+226/occluder_offset = Vector2( 113.5, 80.5 )
+226/navigation_offset = Vector2( 113.5, 80.5 )
+226/shapes = [  ]
+227/name = "roadStartPositions_SW"
+227/texture = ExtResource( 144 )
+227/tex_offset = Vector2( 0, 0 )
+227/modulate = Color( 1, 1, 1, 1 )
+227/region = Rect2( 0, 0, 227, 160 )
+227/is_autotile = false
+227/occluder_offset = Vector2( 113.5, 80 )
+227/navigation_offset = Vector2( 113.5, 80 )
+227/shapes = [  ]
+228/name = "roadStart_NE"
+228/texture = ExtResource( 145 )
+228/tex_offset = Vector2( 0, 0 )
+228/modulate = Color( 1, 1, 1, 1 )
+228/region = Rect2( 0, 0, 226, 161 )
+228/is_autotile = false
+228/occluder_offset = Vector2( 113, 80.5 )
+228/navigation_offset = Vector2( 113, 80.5 )
+228/shapes = [  ]
+229/name = "roadStart_NW"
+229/texture = ExtResource( 146 )
+229/tex_offset = Vector2( 0, 0 )
+229/modulate = Color( 1, 1, 1, 1 )
+229/region = Rect2( 0, 0, 226, 161 )
+229/is_autotile = false
+229/occluder_offset = Vector2( 113, 80.5 )
+229/navigation_offset = Vector2( 113, 80.5 )
+229/shapes = [  ]
+230/name = "roadStart_SE"
+230/texture = ExtResource( 148 )
+230/tex_offset = Vector2( 0, 0 )
+230/modulate = Color( 1, 1, 1, 1 )
+230/region = Rect2( 0, 0, 227, 165 )
+230/is_autotile = false
+230/occluder_offset = Vector2( 113.5, 82.5 )
+230/navigation_offset = Vector2( 113.5, 82.5 )
+230/shapes = [  ]
+231/name = "roadStart_SW"
+231/texture = ExtResource( 149 )
+231/tex_offset = Vector2( 0, 0 )
+231/modulate = Color( 1, 1, 1, 1 )
+231/region = Rect2( 0, 0, 227, 165 )
+231/is_autotile = false
+231/occluder_offset = Vector2( 113.5, 82.5 )
+231/navigation_offset = Vector2( 113.5, 82.5 )
+231/shapes = [  ]
+232/name = "roadStraightArrow_NE"
+232/texture = ExtResource( 150 )
+232/tex_offset = Vector2( 0, 0 )
+232/modulate = Color( 1, 1, 1, 1 )
+232/region = Rect2( 0, 0, 151, 107 )
+232/is_autotile = false
+232/occluder_offset = Vector2( 75.5, 53.5 )
+232/navigation_offset = Vector2( 75.5, 53.5 )
+232/shapes = [  ]
+233/name = "roadStraightArrow_NW"
+233/texture = ExtResource( 151 )
+233/tex_offset = Vector2( 0, 0 )
+233/modulate = Color( 1, 1, 1, 1 )
+233/region = Rect2( 0, 0, 151, 107 )
+233/is_autotile = false
+233/occluder_offset = Vector2( 75.5, 53.5 )
+233/navigation_offset = Vector2( 75.5, 53.5 )
+233/shapes = [  ]
+234/name = "roadStraightArrow_SE"
+234/texture = ExtResource( 152 )
+234/tex_offset = Vector2( 0, 0 )
+234/modulate = Color( 1, 1, 1, 1 )
+234/region = Rect2( 0, 0, 151, 107 )
+234/is_autotile = false
+234/occluder_offset = Vector2( 75.5, 53.5 )
+234/navigation_offset = Vector2( 75.5, 53.5 )
+234/shapes = [  ]
+235/name = "roadStraightArrow_SW"
+235/texture = ExtResource( 153 )
+235/tex_offset = Vector2( 0, 0 )
+235/modulate = Color( 1, 1, 1, 1 )
+235/region = Rect2( 0, 0, 151, 107 )
+235/is_autotile = false
+235/occluder_offset = Vector2( 75.5, 53.5 )
+235/navigation_offset = Vector2( 75.5, 53.5 )
+235/shapes = [  ]
+236/name = "roadStraightBridgeMid_NE"
+236/texture = ExtResource( 154 )
+236/tex_offset = Vector2( 0, 0 )
+236/modulate = Color( 1, 1, 1, 1 )
+236/region = Rect2( 0, 0, 151, 115 )
+236/is_autotile = false
+236/occluder_offset = Vector2( 75.5, 57.5 )
+236/navigation_offset = Vector2( 75.5, 57.5 )
+236/shapes = [  ]
+237/name = "roadStraightBridgeMid_NW"
+237/texture = ExtResource( 155 )
+237/tex_offset = Vector2( 0, 0 )
+237/modulate = Color( 1, 1, 1, 1 )
+237/region = Rect2( 0, 0, 151, 115 )
+237/is_autotile = false
+237/occluder_offset = Vector2( 75.5, 57.5 )
+237/navigation_offset = Vector2( 75.5, 57.5 )
+237/shapes = [  ]
+238/name = "roadStraightBridgeMid_SE"
+238/texture = ExtResource( 156 )
+238/tex_offset = Vector2( 0, 0 )
+238/modulate = Color( 1, 1, 1, 1 )
+238/region = Rect2( 0, 0, 151, 115 )
+238/is_autotile = false
+238/occluder_offset = Vector2( 75.5, 57.5 )
+238/navigation_offset = Vector2( 75.5, 57.5 )
+238/shapes = [  ]
+239/name = "roadStraightBridgeMid_SW"
+239/texture = ExtResource( 157 )
+239/tex_offset = Vector2( 0, 0 )
+239/modulate = Color( 1, 1, 1, 1 )
+239/region = Rect2( 0, 0, 151, 115 )
+239/is_autotile = false
+239/occluder_offset = Vector2( 75.5, 57.5 )
+239/navigation_offset = Vector2( 75.5, 57.5 )
+239/shapes = [  ]
+240/name = "roadStraightBridgeStart_NE"
+240/texture = ExtResource( 159 )
+240/tex_offset = Vector2( 0, 0 )
+240/modulate = Color( 1, 1, 1, 1 )
+240/region = Rect2( 0, 0, 151, 115 )
+240/is_autotile = false
+240/occluder_offset = Vector2( 75.5, 57.5 )
+240/navigation_offset = Vector2( 75.5, 57.5 )
+240/shapes = [  ]
+241/name = "roadStraightBridgeStart_NW"
+241/texture = ExtResource( 160 )
+241/tex_offset = Vector2( 0, 0 )
+241/modulate = Color( 1, 1, 1, 1 )
+241/region = Rect2( 0, 0, 151, 115 )
+241/is_autotile = false
+241/occluder_offset = Vector2( 75.5, 57.5 )
+241/navigation_offset = Vector2( 75.5, 57.5 )
+241/shapes = [  ]
+242/name = "roadStraightBridgeStart_SE"
+242/texture = ExtResource( 161 )
+242/tex_offset = Vector2( 0, 0 )
+242/modulate = Color( 1, 1, 1, 1 )
+242/region = Rect2( 0, 0, 151, 142 )
+242/is_autotile = false
+242/occluder_offset = Vector2( 75.5, 71 )
+242/navigation_offset = Vector2( 75.5, 71 )
+242/shapes = [  ]
+243/name = "roadStraightBridgeStart_SW"
+243/texture = ExtResource( 162 )
+243/tex_offset = Vector2( 0, 0 )
+243/modulate = Color( 1, 1, 1, 1 )
+243/region = Rect2( 0, 0, 151, 142 )
+243/is_autotile = false
+243/occluder_offset = Vector2( 75.5, 71 )
+243/navigation_offset = Vector2( 75.5, 71 )
+243/shapes = [  ]
+244/name = "roadStraightBridge_NE"
+244/texture = ExtResource( 163 )
+244/tex_offset = Vector2( 0, 0 )
+244/modulate = Color( 1, 1, 1, 1 )
+244/region = Rect2( 0, 0, 151, 144 )
+244/is_autotile = false
+244/occluder_offset = Vector2( 75.5, 72 )
+244/navigation_offset = Vector2( 75.5, 72 )
+244/shapes = [  ]
+245/name = "roadStraightBridge_NW"
+245/texture = ExtResource( 164 )
+245/tex_offset = Vector2( 0, 0 )
+245/modulate = Color( 1, 1, 1, 1 )
+245/region = Rect2( 0, 0, 151, 145 )
+245/is_autotile = false
+245/occluder_offset = Vector2( 75.5, 72.5 )
+245/navigation_offset = Vector2( 75.5, 72.5 )
+245/shapes = [  ]
+246/name = "roadStraightBridge_SE"
+246/texture = ExtResource( 165 )
+246/tex_offset = Vector2( 0, 0 )
+246/modulate = Color( 1, 1, 1, 1 )
+246/region = Rect2( 0, 0, 151, 145 )
+246/is_autotile = false
+246/occluder_offset = Vector2( 75.5, 72.5 )
+246/navigation_offset = Vector2( 75.5, 72.5 )
+246/shapes = [  ]
+247/name = "roadStraightBridge_SW"
+247/texture = ExtResource( 166 )
+247/tex_offset = Vector2( 0, 0 )
+247/modulate = Color( 1, 1, 1, 1 )
+247/region = Rect2( 0, 0, 151, 145 )
+247/is_autotile = false
+247/occluder_offset = Vector2( 75.5, 72.5 )
+247/navigation_offset = Vector2( 75.5, 72.5 )
+247/shapes = [  ]
+248/name = "roadStraightLong_NE"
+248/texture = ExtResource( 167 )
+248/tex_offset = Vector2( 0, 0 )
+248/modulate = Color( 1, 1, 1, 1 )
+248/region = Rect2( 0, 0, 226, 160 )
+248/is_autotile = false
+248/occluder_offset = Vector2( 113, 80 )
+248/navigation_offset = Vector2( 113, 80 )
+248/shapes = [  ]
+249/name = "roadStraightLong_NW"
+249/texture = ExtResource( 168 )
+249/tex_offset = Vector2( 0, 0 )
+249/modulate = Color( 1, 1, 1, 1 )
+249/region = Rect2( 0, 0, 226, 160 )
+249/is_autotile = false
+249/occluder_offset = Vector2( 113, 80 )
+249/navigation_offset = Vector2( 113, 80 )
+249/shapes = [  ]
+250/name = "roadStraightLong_SE"
+250/texture = ExtResource( 170 )
+250/tex_offset = Vector2( 0, 0 )
+250/modulate = Color( 1, 1, 1, 1 )
+250/region = Rect2( 0, 0, 227, 161 )
+250/is_autotile = false
+250/occluder_offset = Vector2( 113.5, 80.5 )
+250/navigation_offset = Vector2( 113.5, 80.5 )
+250/shapes = [  ]
+251/name = "roadStraightLong_SW"
+251/texture = ExtResource( 171 )
+251/tex_offset = Vector2( 0, 0 )
+251/modulate = Color( 1, 1, 1, 1 )
+251/region = Rect2( 0, 0, 227, 160 )
+251/is_autotile = false
+251/occluder_offset = Vector2( 113.5, 80 )
+251/navigation_offset = Vector2( 113.5, 80 )
+251/shapes = [  ]
+252/name = "roadStraightSkew_NE"
+252/texture = ExtResource( 172 )
+252/tex_offset = Vector2( 0, 0 )
+252/modulate = Color( 1, 1, 1, 1 )
+252/region = Rect2( 0, 0, 151, 214 )
+252/is_autotile = false
+252/occluder_offset = Vector2( 75.5, 107 )
+252/navigation_offset = Vector2( 75.5, 107 )
+252/shapes = [  ]
+253/name = "roadStraightSkew_NW"
+253/texture = ExtResource( 173 )
+253/tex_offset = Vector2( 0, 0 )
+253/modulate = Color( 1, 1, 1, 1 )
+253/region = Rect2( 0, 0, 301, 107 )
+253/is_autotile = false
+253/occluder_offset = Vector2( 150.5, 53.5 )
+253/navigation_offset = Vector2( 150.5, 53.5 )
+253/shapes = [  ]
+254/name = "roadStraightSkew_SE"
+254/texture = ExtResource( 174 )
+254/tex_offset = Vector2( 0, 0 )
+254/modulate = Color( 1, 1, 1, 1 )
+254/region = Rect2( 0, 0, 151, 213 )
+254/is_autotile = false
+254/occluder_offset = Vector2( 75.5, 106.5 )
+254/navigation_offset = Vector2( 75.5, 106.5 )
+254/shapes = [  ]
+255/name = "roadStraightSkew_SW"
+255/texture = ExtResource( 175 )
+255/tex_offset = Vector2( 0, 0 )
+255/modulate = Color( 1, 1, 1, 1 )
+255/region = Rect2( 0, 0, 301, 107 )
+255/is_autotile = false
+255/occluder_offset = Vector2( 150.5, 53.5 )
+255/navigation_offset = Vector2( 150.5, 53.5 )
+255/shapes = [  ]
+256/name = "roadStraight_NE"
+256/texture = ExtResource( 176 )
+256/tex_offset = Vector2( 0, 0 )
+256/modulate = Color( 1, 1, 1, 1 )
+256/region = Rect2( 0, 0, 151, 107 )
+256/is_autotile = false
+256/occluder_offset = Vector2( 75.5, 53.5 )
+256/navigation_offset = Vector2( 75.5, 53.5 )
+256/shapes = [  ]
+257/name = "roadStraight_NW"
+257/texture = ExtResource( 177 )
+257/tex_offset = Vector2( 0, 0 )
+257/modulate = Color( 1, 1, 1, 1 )
+257/region = Rect2( 0, 0, 151, 107 )
+257/is_autotile = false
+257/occluder_offset = Vector2( 75.5, 53.5 )
+257/navigation_offset = Vector2( 75.5, 53.5 )
+257/shapes = [  ]
+258/name = "roadStraight_SE"
+258/texture = ExtResource( 178 )
+258/tex_offset = Vector2( 0, 0 )
+258/modulate = Color( 1, 1, 1, 1 )
+258/region = Rect2( 0, 0, 151, 107 )
+258/is_autotile = false
+258/occluder_offset = Vector2( 75.5, 53.5 )
+258/navigation_offset = Vector2( 75.5, 53.5 )
+258/shapes = [  ]
+259/name = "roadStraight_SW"
+259/texture = ExtResource( 179 )
+259/tex_offset = Vector2( 0, 0 )
+259/modulate = Color( 1, 1, 1, 1 )
+259/region = Rect2( 0, 0, 151, 107 )
+259/is_autotile = false
+259/occluder_offset = Vector2( 75.5, 53.5 )
+259/navigation_offset = Vector2( 75.5, 53.5 )
+259/shapes = [  ]
+260/name = "tentClosedLong_NE"
+260/texture = ExtResource( 181 )
+260/tex_offset = Vector2( 0, 0 )
+260/modulate = Color( 1, 1, 1, 1 )
+260/region = Rect2( 0, 0, 227, 200 )
+260/is_autotile = false
+260/occluder_offset = Vector2( 113.5, 100 )
+260/navigation_offset = Vector2( 113.5, 100 )
+260/shapes = [  ]
+261/name = "tentClosedLong_NW"
+261/texture = ExtResource( 182 )
+261/tex_offset = Vector2( 0, 0 )
+261/modulate = Color( 1, 1, 1, 1 )
+261/region = Rect2( 0, 0, 226, 200 )
+261/is_autotile = false
+261/occluder_offset = Vector2( 113, 100 )
+261/navigation_offset = Vector2( 113, 100 )
+261/shapes = [  ]
+262/name = "tentClosedLong_SE"
+262/texture = ExtResource( 183 )
+262/tex_offset = Vector2( 0, 0 )
+262/modulate = Color( 1, 1, 1, 1 )
+262/region = Rect2( 0, 0, 226, 200 )
+262/is_autotile = false
+262/occluder_offset = Vector2( 113, 100 )
+262/navigation_offset = Vector2( 113, 100 )
+262/shapes = [  ]
+263/name = "tentClosedLong_SW"
+263/texture = ExtResource( 184 )
+263/tex_offset = Vector2( 0, 0 )
+263/modulate = Color( 1, 1, 1, 1 )
+263/region = Rect2( 0, 0, 227, 199 )
+263/is_autotile = false
+263/occluder_offset = Vector2( 113.5, 99.5 )
+263/navigation_offset = Vector2( 113.5, 99.5 )
+263/shapes = [  ]
+264/name = "tentClosed_NE"
+264/texture = ExtResource( 185 )
+264/tex_offset = Vector2( 0, 0 )
+264/modulate = Color( 1, 1, 1, 1 )
+264/region = Rect2( 0, 0, 151, 146 )
+264/is_autotile = false
+264/occluder_offset = Vector2( 75.5, 73 )
+264/navigation_offset = Vector2( 75.5, 73 )
+264/shapes = [  ]
+265/name = "tentClosed_NW"
+265/texture = ExtResource( 186 )
+265/tex_offset = Vector2( 0, 0 )
+265/modulate = Color( 1, 1, 1, 1 )
+265/region = Rect2( 0, 0, 151, 146 )
+265/is_autotile = false
+265/occluder_offset = Vector2( 75.5, 73 )
+265/navigation_offset = Vector2( 75.5, 73 )
+265/shapes = [  ]
+266/name = "tentClosed_SE"
+266/texture = ExtResource( 187 )
+266/tex_offset = Vector2( 0, 0 )
+266/modulate = Color( 1, 1, 1, 1 )
+266/region = Rect2( 0, 0, 151, 147 )
+266/is_autotile = false
+266/occluder_offset = Vector2( 75.5, 73.5 )
+266/navigation_offset = Vector2( 75.5, 73.5 )
+266/shapes = [  ]
+267/name = "tentClosed_SW"
+267/texture = ExtResource( 188 )
+267/tex_offset = Vector2( 0, 0 )
+267/modulate = Color( 1, 1, 1, 1 )
+267/region = Rect2( 0, 0, 151, 146 )
+267/is_autotile = false
+267/occluder_offset = Vector2( 75.5, 73 )
+267/navigation_offset = Vector2( 75.5, 73 )
+267/shapes = [  ]
+268/name = "tentLong_NE"
+268/texture = ExtResource( 189 )
+268/tex_offset = Vector2( 0, 0 )
+268/modulate = Color( 1, 1, 1, 1 )
+268/region = Rect2( 0, 0, 227, 200 )
+268/is_autotile = false
+268/occluder_offset = Vector2( 113.5, 100 )
+268/navigation_offset = Vector2( 113.5, 100 )
+268/shapes = [  ]
+269/name = "tentLong_NW"
+269/texture = ExtResource( 190 )
+269/tex_offset = Vector2( 0, 0 )
+269/modulate = Color( 1, 1, 1, 1 )
+269/region = Rect2( 0, 0, 226, 200 )
+269/is_autotile = false
+269/occluder_offset = Vector2( 113, 100 )
+269/navigation_offset = Vector2( 113, 100 )
+269/shapes = [  ]
+270/name = "tentLong_SE"
+270/texture = ExtResource( 192 )
+270/tex_offset = Vector2( 0, 0 )
+270/modulate = Color( 1, 1, 1, 1 )
+270/region = Rect2( 0, 0, 226, 200 )
+270/is_autotile = false
+270/occluder_offset = Vector2( 113, 100 )
+270/navigation_offset = Vector2( 113, 100 )
+270/shapes = [  ]
+271/name = "tentLong_SW"
+271/texture = ExtResource( 193 )
+271/tex_offset = Vector2( 0, 0 )
+271/modulate = Color( 1, 1, 1, 1 )
+271/region = Rect2( 0, 0, 227, 199 )
+271/is_autotile = false
+271/occluder_offset = Vector2( 113.5, 99.5 )
+271/navigation_offset = Vector2( 113.5, 99.5 )
+271/shapes = [  ]
+272/name = "tent_NE"
+272/texture = ExtResource( 194 )
+272/tex_offset = Vector2( 0, 0 )
+272/modulate = Color( 1, 1, 1, 1 )
+272/region = Rect2( 0, 0, 151, 146 )
+272/is_autotile = false
+272/occluder_offset = Vector2( 75.5, 73 )
+272/navigation_offset = Vector2( 75.5, 73 )
+272/shapes = [  ]
+273/name = "tent_NW"
+273/texture = ExtResource( 195 )
+273/tex_offset = Vector2( 0, 0 )
+273/modulate = Color( 1, 1, 1, 1 )
+273/region = Rect2( 0, 0, 151, 146 )
+273/is_autotile = false
+273/occluder_offset = Vector2( 75.5, 73 )
+273/navigation_offset = Vector2( 75.5, 73 )
+273/shapes = [  ]
+274/name = "tent_SE"
+274/texture = ExtResource( 196 )
+274/tex_offset = Vector2( 0, 0 )
+274/modulate = Color( 1, 1, 1, 1 )
+274/region = Rect2( 0, 0, 151, 147 )
+274/is_autotile = false
+274/occluder_offset = Vector2( 75.5, 73.5 )
+274/navigation_offset = Vector2( 75.5, 73.5 )
+274/shapes = [  ]
+275/name = "tent_SW"
+275/texture = ExtResource( 197 )
+275/tex_offset = Vector2( 0, 0 )
+275/modulate = Color( 1, 1, 1, 1 )
+275/region = Rect2( 0, 0, 151, 146 )
+275/is_autotile = false
+275/occluder_offset = Vector2( 75.5, 73 )
+275/navigation_offset = Vector2( 75.5, 73 )
+275/shapes = [  ]
+276/name = "treeLarge_NE"
+276/texture = ExtResource( 198 )
+276/tex_offset = Vector2( 0, 0 )
+276/modulate = Color( 1, 1, 1, 1 )
+276/region = Rect2( 0, 0, 43, 123 )
+276/is_autotile = false
+276/occluder_offset = Vector2( 21.5, 61.5 )
+276/navigation_offset = Vector2( 21.5, 61.5 )
+276/shapes = [  ]
+277/name = "treeLarge_NW"
+277/texture = ExtResource( 199 )
+277/tex_offset = Vector2( 0, 0 )
+277/modulate = Color( 1, 1, 1, 1 )
+277/region = Rect2( 0, 0, 43, 123 )
+277/is_autotile = false
+277/occluder_offset = Vector2( 21.5, 61.5 )
+277/navigation_offset = Vector2( 21.5, 61.5 )
+277/shapes = [  ]
+278/name = "treeLarge_SE"
+278/texture = ExtResource( 200 )
+278/tex_offset = Vector2( 0, 0 )
+278/modulate = Color( 1, 1, 1, 1 )
+278/region = Rect2( 0, 0, 43, 123 )
+278/is_autotile = false
+278/occluder_offset = Vector2( 21.5, 61.5 )
+278/navigation_offset = Vector2( 21.5, 61.5 )
+278/shapes = [  ]
+279/name = "treeLarge_SW"
+279/texture = ExtResource( 201 )
+279/tex_offset = Vector2( 0, 0 )
+279/modulate = Color( 1, 1, 1, 1 )
+279/region = Rect2( 0, 0, 43, 123 )
+279/is_autotile = false
+279/occluder_offset = Vector2( 21.5, 61.5 )
+279/navigation_offset = Vector2( 21.5, 61.5 )
+279/shapes = [  ]
+280/name = "treeSmall_NE"
+280/texture = ExtResource( 203 )
+280/tex_offset = Vector2( 0, 0 )
+280/modulate = Color( 1, 1, 1, 1 )
+280/region = Rect2( 0, 0, 30, 88 )
+280/is_autotile = false
+280/occluder_offset = Vector2( 15, 44 )
+280/navigation_offset = Vector2( 15, 44 )
+280/shapes = [  ]
+281/name = "treeSmall_NW"
+281/texture = ExtResource( 204 )
+281/tex_offset = Vector2( 0, 0 )
+281/modulate = Color( 1, 1, 1, 1 )
+281/region = Rect2( 0, 0, 30, 88 )
+281/is_autotile = false
+281/occluder_offset = Vector2( 15, 44 )
+281/navigation_offset = Vector2( 15, 44 )
+281/shapes = [  ]
+282/name = "treeSmall_SE"
+282/texture = ExtResource( 205 )
+282/tex_offset = Vector2( 0, 0 )
+282/modulate = Color( 1, 1, 1, 1 )
+282/region = Rect2( 0, 0, 30, 88 )
+282/is_autotile = false
+282/occluder_offset = Vector2( 15, 44 )
+282/navigation_offset = Vector2( 15, 44 )
+282/shapes = [  ]
+283/name = "treeSmall_SW"
+283/texture = ExtResource( 206 )
+283/tex_offset = Vector2( 0, 0 )
+283/modulate = Color( 1, 1, 1, 1 )
+283/region = Rect2( 0, 0, 30, 88 )
+283/is_autotile = false
+283/occluder_offset = Vector2( 15, 44 )
+283/navigation_offset = Vector2( 15, 44 )
+283/shapes = [  ]
+

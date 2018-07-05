@@ -1,0 +1,106 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://level/level.gd" type="Script" id=1]
+[ext_resource path="res://level/tilemap.tscn" type="PackedScene" id=2]
+[ext_resource path="res://car/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://level/start_race.wav" type="AudioStream" id=4]
+[ext_resource path="res://level/Juhani Junkala [Chiptune Adventures] 2. Stage 2.ogg" type="AudioStream" id=5]
+
+[sub_resource type="Gradient" id=5]
+
+offsets = PoolRealArray( 0, 0.816568, 1 )
+colors = PoolColorArray( 0.10025, 0.31692, 0.570312, 1, 0.42041, 0.725838, 0.875, 1, 0.980469, 0.883044, 0.811951, 1 )
+
+[sub_resource type="GradientTexture" id=6]
+
+flags = 4
+gradient = SubResource( 5 )
+width = 2048
+
+[sub_resource type="Gradient" id=3]
+
+offsets = PoolRealArray( 0, 0.00344828, 0.496552, 0.503448, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 0.234375, 0.146806, 0.0888062, 1, 0.351562, 0.215253, 0.124969, 1, 0.601562, 0.355599, 0.192688, 1, 0.699219, 0.478152, 0.316833, 1 )
+
+[sub_resource type="GradientTexture" id=4]
+
+flags = 4
+gradient = SubResource( 3 )
+width = 2048
+
+[node name="Level" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="Background" type="Sprite" parent="." index="0"]
+
+position = Vector2( -1.93848, 844.184 )
+rotation = -1.5708
+scale = Vector2( 1.41253, 6244.04 )
+texture = SubResource( 6 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="BackgroundDirt" type="Sprite" parent="." index="1"]
+
+position = Vector2( 1.96768, 1924.55 )
+scale = Vector2( 1.09926, 2259.16 )
+texture = SubResource( 4 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Level" parent="." index="2" instance=ExtResource( 2 )]
+
+[node name="Player" parent="." index="3" instance=ExtResource( 3 )]
+
+position = Vector2( -367.508, 1082.98 )
+initial_rotation = 305
+
+[node name="Camera2D" type="Camera2D" parent="Player" index="1"]
+
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 1, 1 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = false
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+_sections_unfolded = [ "Drag Margin", "Editor", "Limit", "Material", "Offset", "Pause", "Smoothing", "Transform", "Visibility" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StartSoundPlayer" type="AudioStreamPlayer" parent="." index="4"]
+
+stream = ExtResource( 4 )
+volume_db = -2.0
+pitch_scale = 1.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="5"]
+
+stream = ExtResource( 5 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+[connection signal="finished" from="StartSoundPlayer" to="." method="_on_AudioStreamPlayer_finished"]
+
+

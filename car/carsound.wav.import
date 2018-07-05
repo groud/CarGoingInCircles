@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/carsound.wav-3c904bcf3c9e5a64942281b86f8fea99.sample"
+
+[deps]
+
+source_file="res://car/carsound.wav"
+dest_files=[ "res://.import/carsound.wav-3c904bcf3c9e5a64942281b86f8fea99.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=true
+edit/loop=true
+compress/mode=0
