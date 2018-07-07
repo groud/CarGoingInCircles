@@ -16,15 +16,17 @@ func _ready():
 
 func _process(delta):
 	var move = Vector2()
+	var turn = 0
 	if (running):
 		# Rotation handling
 		var corrected_rotation_speed = rotation_speed * range_lerp(speed, 0, max_speed, 1.0, 0.7)
 		
 		if(Input.is_action_pressed("ui_right")):
-			rot += delta * corrected_rotation_speed
+			turn = delta * corrected_rotation_speed
 		if(Input.is_action_pressed("ui_left")):
-			rot -= delta * corrected_rotation_speed
+			turn = -delta * corrected_rotation_speed
 		
+		rot += turn
 		while (rot < 0):
 			rot += 360.0
 		rot = fmod(rot, 360)
@@ -48,3 +50,14 @@ func _process(delta):
 	var pitch_scale = range_lerp(move.length(), 0, max_speed, 0.24, 0.8)
 	AudioServer.get_bus_effect(AudioServer.get_bus_index("Car"), 0).pitch_scale = pitch_scale
 	
+	# Particles
+	if (abs(turn / delta) > rotation_speed / 2 and speed > max_speed/1.5):
+		$"TrailsPivot/Particles2D".emitting = true
+		$"TrailsPivot/Particles2D2".emitting = true
+	else:
+		$"TrailsPivot/Particles2D".emitting = false
+		$"TrailsPivot/Particles2D2".emitting = false
+		
+	$TrailsPivot.rotation_degrees = rot
+	$"TrailsPivot/Particles2D".process_material.angle = rot + 90
+	$"TrailsPivot/Particles2D2".process_material.angle = rot + 90

@@ -6,15 +6,15 @@
 [ext_resource path="res://level/start_race.wav" type="AudioStream" id=4]
 [ext_resource path="res://level/Juhani Junkala [Chiptune Adventures] 2. Stage 2.ogg" type="AudioStream" id=5]
 
-[sub_resource type="Gradient" id=5]
+[sub_resource type="Gradient" id=1]
 
 offsets = PoolRealArray( 0, 0.816568, 1 )
 colors = PoolColorArray( 0.10025, 0.31692, 0.570312, 1, 0.42041, 0.725838, 0.875, 1, 0.980469, 0.883044, 0.811951, 1 )
 
-[sub_resource type="GradientTexture" id=6]
+[sub_resource type="GradientTexture" id=2]
 
 flags = 4
-gradient = SubResource( 5 )
+gradient = SubResource( 1 )
 width = 2048
 
 [sub_resource type="Gradient" id=3]
@@ -37,7 +37,7 @@ script = ExtResource( 1 )
 position = Vector2( -1.93848, 844.184 )
 rotation = -1.5708
 scale = Vector2( 1.41253, 6244.04 )
-texture = SubResource( 6 )
+texture = SubResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="BackgroundDirt" type="Sprite" parent="." index="1"]
@@ -51,7 +51,10 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="Player" parent="." index="3" instance=ExtResource( 3 )]
 
+editor/display_folded = true
 position = Vector2( -367.508, 1082.98 )
+collision_layer = 2
+_sections_unfolded = [ "Collision", "Pickable", "Transform", "collision" ]
 initial_rotation = 305
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="1"]
