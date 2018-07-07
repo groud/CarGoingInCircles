@@ -14,13 +14,12 @@ constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 script = ExtResource( 1 )
-number_of_laps = 3
 
 [node name="Grass" type="TileMap" parent="." index="0"]
 
 mode = 2
 tile_set = ExtResource( 2 )
-cell_size = Vector2( 64, 64 )
+cell_size = Vector2( 150, 90 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 75, 53, -75, 53, 0, 0 )
 cell_half_offset = 2
@@ -125,7 +124,7 @@ visible = false
 build_mode = 0
 polygon = PoolVector2Array( 1.18726, 210.489, -452.522, 527.031, -356.052, 602.398, -348.516, 655.155, -607.778, 846.587, 76.5543, 1328.94, 382.544, 1110.37, 59.9735, 873.719, 55.4515, 813.426, 459.419, 528.538 )
 
-[node name="Checkpoint" parent="." index="6" instance=ExtResource( 3 )]
+[node name="Checkpoint0" parent="." index="6" instance=ExtResource( 3 )]
 
 position = Vector2( -431.964, 1021.23 )
 rotation = -0.696391
@@ -133,6 +132,28 @@ gravity_vec = Vector2( 0, 0 )
 gravity = 0.0
 _sections_unfolded = [ "Audio Bus", "Collision", "Pickable", "Transform" ]
 
-[connection signal="checkpoint" from="Checkpoint" to="." method="_on_Checkpoint_checkpoint"]
+[node name="Checkpoint1" parent="." index="7" instance=ExtResource( 3 )]
+
+position = Vector2( -284.325, 371.208 )
+rotation = 0.747145
+gravity_vec = Vector2( 0, 0 )
+gravity = 0.0
+_sections_unfolded = [ "Audio Bus", "Collision", "Pickable", "Transform" ]
+checkpoint_id = 1
+
+[node name="Checkpoint2" parent="." index="8" instance=ExtResource( 3 )]
+
+position = Vector2( 345.192, 674.688 )
+rotation = 3.80738
+gravity_vec = Vector2( 0, 0 )
+gravity = 0.0
+_sections_unfolded = [ "Audio Bus", "Collision", "Pickable", "Transform" ]
+checkpoint_id = 2
+
+[connection signal="checkpoint" from="Checkpoint0" to="." method="_on_Checkpoint_checkpoint"]
+
+[connection signal="checkpoint" from="Checkpoint1" to="." method="_on_Checkpoint_checkpoint"]
+
+[connection signal="checkpoint" from="Checkpoint2" to="." method="_on_Checkpoint_checkpoint"]
 
 
