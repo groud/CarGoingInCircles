@@ -30,8 +30,9 @@ flags = 4
 gradient = SubResource( 3 )
 width = 2048
 
-[node name="Level" type="Node" index="0"]
+[node name="Level" type="Node"]
 script = ExtResource( 1 )
+multi = true
 
 [node name="GUI" type="CanvasLayer" parent="." index="0"]
 layer = 1
@@ -106,7 +107,6 @@ _sections_unfolded = [ "Drag Margin", "Editor", "Limit", "Material", "Offset", "
 
 [node name="Player1" parent="." index="5" instance=ExtResource( 5 )]
 position = Vector2( -379.442, 1037.87 )
-player = 1
 
 [node name="Player0" parent="." index="6" instance=ExtResource( 5 )]
 position = Vector2( -367.508, 1082.98 )

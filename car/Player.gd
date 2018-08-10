@@ -16,13 +16,16 @@ func _ready():
 	rot = initial_rotation
 	if (player == 1):
 		$AnimatedSprite.modulate = Color(1.0, 0, 0)
-		
-		
 
+slave func set_pos_and_motion(p_pos, p_rot, p_speed):
+	position = p_pos
+	rot = p_rot
+	speed = p_speed
+	
 func _process(delta):
 	var move = Vector2()
 	var turn = 0
-	if (running):
+	if (running and is_network_master()):
 		# Rotation handling
 		var corrected_rotation_speed = rotation_speed * range_lerp(speed, 0, max_speed, 1.0, 0.7)
 		
@@ -49,6 +52,9 @@ func _process(delta):
 		move = move.rotated(deg2rad(rot))
 		move = move_and_slide(move)
 		speed = max(0, lerp(speed, move.length(), 0.1))
+		
+		rpc_unreliable("set_pos_and_motion", position, rot, speed)
+
 	
 	# Set animation depending on the rotation
 	$AnimatedSprite.frame = int(floor((rot*8/360.0 + 3.5))) % 8
