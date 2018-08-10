@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://menu/MainMenu.gd" type="Script" id=1]
 [ext_resource path="res://menu/background.png" type="Texture" id=2]
 [ext_resource path="res://menu/MainMenuDynamicFont.tres" type="DynamicFont" id=3]
 [ext_resource path="res://menu/Button.tscn" type="PackedScene" id=4]
 [ext_resource path="res://menu/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg" type="AudioStream" id=5]
+[ext_resource path="res://menu/lobby.tscn" type="PackedScene" id=6]
 
 [node name="Menu" type="Node"]
 script = ExtResource( 1 )
@@ -40,6 +41,7 @@ max_lines_visible = -1
 _sections_unfolded = [ "custom_colors", "custom_fonts" ]
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." index="2"]
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -84,6 +86,13 @@ autoplay = true
 stream_paused = false
 mix_target = 0
 bus = "Master"
+
+[node name="lobby" parent="." index="4" instance=ExtResource( 6 )]
+visible = false
+margin_left = 30.0
+margin_top = 307.0
+margin_right = 70.0
+margin_bottom = 347.0
 
 [connection signal="pressed" from="VBoxContainer/PlayButton" to="." method="_on_PlayButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/MultiplayerButton" to="." method="_on_MultiplayerButton_pressed"]

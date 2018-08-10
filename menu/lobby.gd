@@ -48,19 +48,19 @@ func _end_game(with_error=""):
 	
 	get_tree().set_network_peer(null) #remove peer
 	
-	get_node("panel/join").set_disabled(false)
-	get_node("panel/host").set_disabled(false)
+	get_node("join").set_disabled(false)
+	get_node("host").set_disabled(false)
 	
 	_set_status(with_error, false)
 
 func _set_status(text, isok):
 	#simple way to show status		
 	if isok:
-		get_node("panel/status_ok").set_text(text)
-		get_node("panel/status_fail").set_text("")
+		get_node("status_ok").set_text(text)
+		get_node("status_fail").set_text("")
 	else:
-		get_node("panel/status_ok").set_text("")
-		get_node("panel/status_fail").set_text(text)
+		get_node("status_ok").set_text("")
+		get_node("status_fail").set_text(text)
 
 func _on_host_pressed():
 	var host = NetworkedMultiplayerENet.new()
@@ -72,8 +72,8 @@ func _on_host_pressed():
 		return
 		
 	get_tree().set_network_peer(host)
-	get_node("panel/join").set_disabled(true)
-	get_node("panel/host").set_disabled(true)
+	get_node("join").set_disabled(true)
+	get_node("host").set_disabled(true)
 	_set_status("Waiting for player..", true)
 
 func _on_join_pressed():
