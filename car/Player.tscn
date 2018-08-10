@@ -26,14 +26,15 @@ animations = [ {
 custom_solver_bias = 0.0
 radius = 16.6625
 
-[node name="Player" type="KinematicBody2D" index="0"]
-
+[node name="Player" type="KinematicBody2D"]
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
+motion/sync_to_physics = false
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
+player = 0
 initial_rotation = 0
 rotation_speed = 300
 acceleration = 600
@@ -42,36 +43,32 @@ friction = 1000
 running = false
 
 [node name="TrailsPivot" type="Node2D" parent="." index="0"]
-
 position = Vector2( 0, 2 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Particles2D" parent="TrailsPivot" index="0" instance=ExtResource( 2 )]
-
 position = Vector2( 9, 15 )
+emitting = false
 
 [node name="Particles2D2" parent="TrailsPivot" index="1" instance=ExtResource( 2 )]
-
 position = Vector2( -7, 16 )
+emitting = false
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="1"]
-
 scale = Vector2( 2, 2 )
 frames = SubResource( 1 )
 animation = "default"
-_sections_unfolded = [ "Transform" ]
+_sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
-
 shape = SubResource( 2 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="3"]
-
 stream = ExtResource( 11 )
 volume_db = -13.0
 pitch_scale = 1.0
 autoplay = true
+stream_paused = false
 mix_target = 0
-bus = "Car"
-
+bus = "Master"
 

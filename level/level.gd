@@ -7,7 +7,8 @@ func _ready():
 	set_level_label(0, 100)
 
 func _on_AudioStreamPlayer_finished():
-	$Player.running = true
+	$Player0.running = true
+	$Player1.running = true
 
 func _process(delta):
 	if (Input.is_action_just_pressed("ui_cancel")):
